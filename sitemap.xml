@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="Blue.xsl"?>
+<!--  generator="Inspyder Sitemap Creator 4.1.0"  -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd http://www.google.com/schemas/sitemap-mobile/1.0/sitemap-mobile.xsd http://www.google.com/schemas/sitemap-video/1.1/sitemap-video.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+	<loc>http://omowazu-syoukai.com/</loc>
+	<lastmod>2015-03-12</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/button_top.png</image:loc>
+		<image:caption>TOP</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/button_samazama.png</image:loc>
+		<image:caption>&#230;&#167;˜&#227;€…&#227;&#170;&#227;‚&#181;&#227;‚&#164;&#227;ƒˆ</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/button_about.png</image:loc>
+		<image:caption>&#227;“&#227;&#174;&#227;‚&#181;&#227;‚&#164;&#227;ƒˆ&#227;&#171;&#227;&#164;&#227;„&#227;&#166;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/button_contact.png</image:loc>
+		<image:caption>&#227;Š&#229;•&#227;„&#229;ˆ&#227;‚&#227;›</image:caption>
+	</image:image>
+	<mobile:mobile/>
+</url>
+<url>
+	<loc>http://omowazu-syoukai.com/about.html</loc>
+	<lastmod>2015-03-12</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<mobile:mobile/>
+</url>
+<url>
+	<loc>http://omowazu-syoukai.com/kuchikomi01.html</loc>
+	<lastmod>2015-03-12</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/1.jpg</image:loc>
+		<image:caption>&#232;&#166;&#179;&#232;‘‰&#230;&#164;&#231;‰&#169;&#227;ƒ&#172;&#227;ƒ&#179;&#227;‚&#191;&#227;ƒ&#171; | &#227;‚&#176;&#227;ƒ&#170;&#227;ƒ&#188;&#227;ƒ&#179;&#227;ƒ&#172;&#227;ƒ&#179;&#227;‚&#191;&#227;ƒ&#171;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/2.jpg</image:loc>
+		<image:caption>&#227;ƒ&#227;ƒ&#188;&#227;‚&#185;&#227;ƒ‡&#227;ƒ&#188;&#227;‚&#177;&#227;ƒ&#188;&#227;‚&#173; | &#232;&#170;•&#231;”Ÿ&#230;—&#165;&#227;‚&#177;&#227;ƒ&#188;&#227;‚&#173;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/3.jpg</image:loc>
+		<image:caption>&#230;–&#176;&#230;&#189;Ÿ&#229;&#184;‚&#227;€€&#229;&#174;&#182;&#229;&#186;&#173;&#230;•™&#229;&#184;&#171; | &#229;&#174;&#182;&#229;&#186;&#173;&#230;•™&#229;&#184;&#171;&#227;&#174;&#230;&#186;€&#231;‚&#185;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/4.jpg</image:loc>
+		<image:caption>&#227;ƒ‘&#227;ƒ&#175;&#227;ƒ&#188;&#227;‚&#185;&#227;ƒˆ&#227;ƒ&#188;&#227;ƒ&#179; &#227;ƒ–&#227;ƒ&#172;&#227;‚&#185;&#227;ƒ&#172;&#227;ƒƒ&#227;ƒˆ | &#229;&#164;&#169;&#231;„&#182;&#231;Ÿ&#179; &#227;‚&#162;&#227;‚&#175;&#227;‚&#187;&#227;‚&#181;&#227;ƒ&#170;&#227;ƒ&#188;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/5.jpg</image:loc>
+		<image:caption>&#229;€‹&#228;&#186;&#186;&#230;ƒ…&#229;&#160;&#177; | &#229;€‹&#228;&#186;&#186;&#230;ƒ…&#229;&#160;&#177;&#228;&#191;&#232;&#173;&#183;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/6.jpg</image:loc>
+		<image:caption>&#229;€‹&#228;&#186;&#186;&#230;ƒ…&#229;&#160;&#177;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/7.jpg</image:loc>
+		<image:caption>&#227;ƒ—&#227;ƒ&#230;–&#173;&#233;&#163;Ÿ | &#233;…&#181;&#231;&#180;&#160;&#227;ƒ€&#227;‚&#164;&#227;‚&#168;&#227;ƒƒ&#227;ƒˆ</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/8.jpg</image:loc>
+		<image:caption>&#232;…&#184;&#230;&#180;—&#230;&#181;„</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/9.jpg</image:loc>
+		<image:caption>&#227;Š&#229;–&#227;‚Š&#229;&#175;„&#227;›&#227;‚&#185;&#227;‚&#164;&#227;ƒ&#188;&#227;ƒ„ | &#227;‚&#177;&#227;ƒ&#188;&#227;‚&#173;&#233;€š&#232;&#178;&#169;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/10.jpg</image:loc>
+		<image:caption>&#231;”&#183;&#230;€&#167;&#228;&#184;&#229;&#166;Š</image:caption>
+	</image:image>
+	<mobile:mobile/>
+</url>
+<url>
+	<loc>http://omowazu-syoukai.com/kuchikomi02.html</loc>
+	<lastmod>2015-03-12</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/11.jpg</image:loc>
+		<image:caption>M&#229;&#173;—&#227;&#175;&#227;’</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/12.jpg</image:loc>
+		<image:caption>&#232;‚&#169;&#227;“&#227;‚Š &#232;&#167;&#163;&#230;&#182;ˆ &#227;‚&#176;&#227;ƒƒ&#227;‚&#186;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/13.jpg</image:loc>
+		<image:caption>&#233;&#171;˜&#233;&#186;—&#228;&#186;&#186;&#229;‚</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/14.jpg</image:loc>
+		<image:caption>&#227;‚&#168;&#227;‚&#164;&#227;‚&#184;&#227;ƒ&#179;&#227;‚&#176;&#227;‚&#177;&#227;‚&#162;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/15.jpg</image:loc>
+		<image:caption>&#227;‚&#184;&#227;‚&#167;&#227;ƒ&#171;&#227;ƒ&#227;‚&#164;&#227;ƒ&#171;&#227;‚&#170;&#227;ƒ•</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/16.jpg</image:loc>
+		<image:caption>&#227;&#190;&#227;&#168;&#227;‚&#227;‚&#170;&#227;ƒ&#188;&#227;ƒ&#171; | &#227;&#190;&#227;&#168;&#227;‚&#227;‚&#181;&#227;‚&#164;&#227;ƒˆ</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/17.jpg</image:loc>
+		<image:caption>&#231;&#183;&#229;ˆ&#227;ƒ&#169;&#227;ƒ&#179;&#227;‚&#173;&#227;ƒ&#179;&#227;‚&#176;&#227;‚&#181;&#227;‚&#164;&#227;ƒˆ | &#227;ƒ&#169;&#227;ƒ&#179;&#227;‚&#173;&#227;ƒ&#179;&#227;‚&#176;&#227;‚&#181;&#227;‚&#164;&#227;ƒˆ</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/18.jpg</image:loc>
+		<image:caption>&#228;&#188;š&#231;&#164;&#190;&#231;&#180;&#185;&#228;&#187;‹ | &#228;&#188;&#230;&#165;&#173;&#231;&#180;&#185;&#228;&#187;‹</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/19.jpg</image:loc>
+		<image:caption>&#229;&#187;&#186;&#232;&#168;&#173;&#230;&#165;&#173;&#232;&#168;&#177;&#229;&#175; | &#229;&#187;&#186;&#232;&#168;&#173;&#230;&#165;&#173;&#232;&#168;&#177;&#229;&#175;&#228;&#187;&#163;&#232;&#161;Œ</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/20.jpg</image:loc>
+		<image:caption>&#227;‚&#189;&#227;ƒ&#188;&#227;‚&#183;&#227;ƒ&#163;&#227;ƒ&#171;&#227;‚&#178;&#227;ƒ&#188;&#227;ƒ&#160; &#227;ƒ&#169;&#227;ƒ&#179;&#227;‚&#173;&#227;ƒ&#179;&#227;‚&#176; | &#227;‚&#185;&#227;ƒž&#227;ƒ›&#227;‚&#178;&#227;ƒ&#188;&#227;ƒ&#160; &#227;ƒ&#169;&#227;ƒ&#179;&#227;‚&#173;&#227;ƒ&#179;&#227;‚&#176;</image:caption>
+	</image:image>
+	<mobile:mobile/>
+</url>
+<url>
+	<loc>http://omowazu-syoukai.com/kuchikomi03.html</loc>
+	<lastmod>2015-03-12</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/21.jpg</image:loc>
+		<image:caption>&#227;‚&#178;&#227;ƒ&#188;&#227;ƒ&#160;&#227;€€&#230;”&#187;&#231;•&#165; | &#227;‚&#178;&#227;ƒ&#188;&#227;ƒ&#160;&#227;€€&#227;‚„&#227;&#163;&#227;&#166;&#227;&#191;&#227;Ÿ</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/22.jpg</image:loc>
+		<image:caption>&#231;&#179;–&#229;&#176;&#191;&#231;—…&#233;&#163;Ÿ | &#232;…Ž&#232;‡“&#231;—…&#233;&#163;Ÿ</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/23.jpg</image:loc>
+		<image:caption>&#232;&#161;&#168;&#229;‚&#233;“&#227;€€&#231;&#190;Ž&#229;&#174;&#185;&#229;&#174;&#164;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/24.jpg</image:loc>
+		<image:caption>&#233;&#187;’&#231;&#160;‚&#231;&#179;–</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/25.jpg</image:loc>
+		<image:caption>&#227;Š&#231;&#177;&#179; &#233;€š&#232;&#178;&#169;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/26.jpg</image:loc>
+		<image:caption>&#227;ƒ&#172;&#227;ƒ&#179;&#227;‚&#191;&#227;ƒ&#171;&#227;‚&#170;&#227;ƒ•&#227;‚&#163;&#227;‚&#185;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/27.jpg</image:loc>
+		<image:caption>&#231;&#190;Ž&#232;‚Œ &#227;€€&#231;&#167;˜&#232;&#168;&#163;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/28.jpg</image:loc>
+		<image:caption>&#227;ƒ‘&#227;ƒ&#175;&#227;ƒ&#188;&#227;‚&#185;&#227;ƒˆ&#227;ƒ&#188;&#227;ƒ&#179; &#227;ƒ–&#227;ƒ&#172;&#227;‚&#185;&#227;ƒ&#172;&#227;ƒƒ&#227;ƒˆ | &#229;&#164;&#169;&#231;„&#182;&#231;Ÿ&#179; &#227;‚&#162;&#227;‚&#175;&#227;‚&#187;&#227;‚&#181;&#227;ƒ&#170;&#227;ƒ&#188;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/29.jpg</image:loc>
+		<image:caption>&#231;&#180;&#185;&#228;&#187;‹&#227;ƒ–&#227;ƒ&#173;&#227;‚&#176;</image:caption>
+	</image:image>
+	<image:image>
+		<image:loc>http://omowazu-syoukai.com/img/30.jpg</image:loc>
+		<image:caption>&#230;ƒ…&#229;&#160;&#177;&#231;™&#186;&#228;&#191;&#161;</image:caption>
+	</image:image>
+	<mobile:mobile/>
+</url>
+<url>
+	<loc>http://omowazu-syoukai.com/contact.php</loc>
+	<lastmod>2015-03-12</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+	<mobile:mobile/>
+</url>
+</urlset>

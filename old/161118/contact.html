@@ -1,0 +1,776 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>思わず紹介.com</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="css/nivo-slider.css" rel="stylesheet">
+<link href="css/default.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width">
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<!--スライドショー-->
+<script src="./js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+        effect:'random',
+        slices:5,
+        animSpeed:100, //画像が切り替わるスピード
+        pauseTime:5000, //画像が切り替わるまでの時間
+        startSlide:0, //最初に表示する画像
+        directionNav:true, //矢印を表示する
+        directionNavHide:true, //マウスを乗せたときに矢印を表示
+        controlNav:true, //1,2,3...
+        controlNavThumbsSearch: '.jpg',
+        controlNavThumbsReplace: '_thumb.jpg',
+        keyboardNav:true, //Use left & right arrows
+        pauseOnHover:true, //オンマウスで画像が止まる
+        manualAdvance:false, //Force manual transitions
+        beforeChange: function(){},
+        afterChange: function(){},
+        slideshowEnd: function(){}
+    });
+});
+</script>
+</head>
+
+<body id="about">
+
+<header>
+
+<div class="background">
+<div class="max"><div class="logo"><a href="index.html"><img src="img/logo.png" width="145" height="68" alt=""/></a></div>
+<ul>
+<li><a href="index.html"><img src="img/button_top.png" width="140" height="40" alt="TOP"/></a></li>
+<li><a href="kuchikomi01.html"><img src="img/button_samazama.png" width="140" height="40" alt="様々なサイト"/></a></li>
+<li><a href="about.html"><img src="img/button_about.png" width="140" height="40" alt="このサイトについて"/></a></li>
+<li><a href="contact.html"><img src="img/button_contact.png" width="140" height="40" alt="お問い合わせ"/></a></li>
+</ul></div>
+</div>
+<div class="slider-wrapper theme-default">
+	<div id="slider" class="nivoSlider">
+		<img src="./img/mv.gif" alt="思わず紹介.com">
+		<img src="./img/creed.png" alt="クリード">
+		<img src="./img/misumi.png" alt="MISUMI">
+		<img src="./img/eba.png" alt="EBA">
+</div>
+</header>
+
+<div class="contents">
+<?
+/*------------------------------
+　入力フォーム
+------------------------------*/
+if(empty($_POST['input']))
+{
+$sex = $_POST['sex'];
+?>
+        <form id="frmInput" name="frmInput" method="post" action="<? basename($_SERVER['PHP_SELF']);?>">
+        <table width="620" border="0" class="toiform">
+  <tr>
+    <td width="180" height="30" bgcolor="#e9e7e4" ><div class="form_yoha"><label for="name">貴社名</label>
+    *</div></td>
+    <td width="430" bgcolor="#fdfbf3">
+<input name="name" type="text" id="name" size="50" maxlength="100" class="form_text_zenkaku" value="<?php echo htmlspecialchars($_POST['name'], ENT_QUOTES,'UTF-8'); ?>" />
+<?php if ($_POST['name'] == ''): ?>
+<?php endif; ?>
+</td>
+ </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">
+      <label for="name1">ご担当者名(漢字)
+    *</label></div></td>
+    <td bgcolor="#fdfbf3"><input name="name1" class="form_text_zenkaku" type="text" id="name1" size="50" maxlength="100" value="<?php echo htmlspecialchars($_POST['name1'], ENT_QUOTES,'UTF-8'); ?>" />
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">
+      <label for="name2">フリガナ
+    *</label></div></td>
+    <td bgcolor="#fdfbf3"><input name="name2" class="form_text_zenkaku" type="text" id="name2" size="50" maxlength="100" value="<?php echo htmlspecialchars($_POST['name2'], ENT_QUOTES,'UTF-8'); ?>" />
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">性別
+    *</div></td>
+    <td bgcolor="#fdfbf3">
+		  <?php $sex = $_POST['sex'];
+		  $sex = array();
+			$sexs = array('男性','女性');
+		  foreach ($sexs as $sex1){
+                  print '<label><input type="radio" name="sex[]" id="sex" value="' . $sex1 . '"';
+		if(in_array($sex1, $sex)){print "checked";}
+		print '>' . $sex1 . '</label>';
+		}
+		?>
+                </td></tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha"><label for="pref">ご住所(都道府県）</label>
+    *</div></td>
+    <td bgcolor="#fdfbf3">    <select name="pref">
+		  <?php
+		  $pref = $_POST['pref'];   //入力画面バック時に値継承
+                  $prefs = array('北海道','青森県','岩手県','宮城県','秋田県','山形県','福島県','茨城県','栃木県','群馬県','埼玉県','千葉県','東京都','神奈川県','富山県','石川県','福井県','山梨県','長野県','岐阜県','静岡県','愛知県','三重県','滋賀県','京都府','大阪府','兵庫県','奈良県','和歌山県','鳥取県','島根県','岡山県','広島県','山口県','徳島県','香川県','愛媛県','高知県','福岡県','佐賀県','長崎県','熊本県','大分県','宮崎県','鹿児島県','沖縄県');
+		print '<option value="">都道府県をクリックしてください</option>';
+ 			foreach ($prefs as $p){
+                  	print '<option value="' . $p . '"';
+			if($pref == $p){ print " selected"; }
+			print '>' . $p . '</option>';
+		  }
+		 ?>
+		</select>
+</td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">
+      <label for="address">ご住所(都道府県以下）*</label></div></td>
+    <td bgcolor="#fdfbf3">
+    <input name="address" type="text" class="form_text_zenkaku" id="address" size="50" maxlength="100" value="<?php echo htmlspecialchars($_POST['address'], ENT_QUOTES,'UTF-8'); ?>"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha"><label for="mail">メールアドレス</label>
+    *</div></td>
+    <td bgcolor="#fdfbf3">
+<input name="mail" type="text" id="mail" size="50" class="form_text_hankaku" maxlength="150" value="<?php print(htmlspecialchars($_POST['mail'])); ?>" />
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha"><label for="telban">電話番号</label>
+    *</div></td>
+    <td bgcolor="#fdfbf3">
+    <input name="telban" class="form_text_hankaku" type="text" id="telban" size="50" maxlength="100" value="<?php echo htmlspecialchars($_POST['telban'], ENT_QUOTES,'UTF-8'); ?>"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha"><label for="domain">URL</label></div></td>
+    <td bgcolor="#fdfbf3"><input name="domain" type="text" class="form_text_hankaku" id="domain" size="42" value="<?php print(htmlspecialchars($_POST['domain'])); ?>" />
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">お問い合わせ内容
+    *</div></td>
+    <td bgcolor="#fdfbf3">
+    <?php
+
+if($_REQUEST["con_01"]=="広告掲載のご依頼") $checked["con_01"]=" checked";
+if($_REQUEST["con_02"]=="掲載企業へのご質問等") $checked["con_02"]=" checked";
+if($_REQUEST["con_03"]=="掲載のご希望") $checked["con_03"]=" checked";
+if($_REQUEST["con_04"]=="その他") $checked["con_04"]=" checked";
+
+print <<<eof
+
+
+<input name="con_01" type="checkbox" value="広告掲載のご依頼" {$checked["con_01"]}/>広告掲載のご依頼
+<input name="con_02" type="checkbox" value="掲載企業へのご質問等" {$checked["con_02"]}/>掲載企業へのご質問等
+<input name="con_03" type="checkbox" value="掲載のご希望" {$checked["con_03"]}/>掲載のご希望
+<input name="con_04" type="checkbox" value="その他" {$checked["con_04"]}/>その他
+
+
+eof;
+?>
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha"><label for="yosan">ご予算</label></div></td>
+    <td bgcolor="#fdfbf3">
+    <input name="yosan" type="text" id="yosan" size="30" class="form_text_hankaku" maxlength="100" value="<?php echo htmlspecialchars($_POST['yosan'], ENT_QUOTES,'UTF-8'); ?>"/>円
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha"><label for="question">備考</label>
+    </div></td>
+    <td bgcolor="#fdfbf3">
+    <textarea name="question" class="form_text_zenkaku" id="question" cols="45" rows="3" />
+<?=($_POST['question'])?>
+</textarea>
+</td>
+</tr>
+
+ <tr>
+<th height="56" colspan="2">
+<input name="input" type="submit" value="送信する" id="submit" />
+</th>
+</tr>
+</table>
+</form>
+<?
+}
+
+/*------------------------------
+　確認画面
+------------------------------*/
+if($_POST['input'] == "送信する")
+{
+
+		/* 入力データ確認 */
+
+		$err = "";
+		if(empty($_POST['name'])){
+		$err .= "貴社名は必須です。<br />";
+		}else{
+			if(get_magic_quotes_gpc()){
+				$name = stripslashes($_POST['name']);
+				$name = htmlentities($name, ENT_QUOTES, "utf-8");
+			}else{
+				$name = htmlentities($_POST['name'], ENT_QUOTES, "utf-8");
+			}
+		}
+
+		if(empty($_POST['name1'])){
+		$err .= "ご担当者名は必須です。<br />";
+		}else{
+			if(get_magic_quotes_gpc()){
+				$name1 = stripslashes($_POST['name1']);
+				$name1 = htmlentities($name1, ENT_QUOTES, "utf-8");
+			}else{
+				$name1 = htmlentities($_POST['name1'], ENT_QUOTES, "utf-8");
+			}
+		}
+
+		if(empty($_POST['name2'])){
+		$err .= "フリガナは必須です。<br />";
+		}else{
+			if(get_magic_quotes_gpc()){
+				$name2 = stripslashes($_POST['name2']);
+				$name2 = htmlentities($name2, ENT_QUOTES, "utf-8");
+			}else{
+				$name2 = htmlentities($_POST['name2'], ENT_QUOTES, "utf-8");
+			}
+		}
+
+		if (empty($_POST['sex'])) {
+		$err .= "性別は必須です<br />";
+		} else {
+		print "";
+		}
+
+		if(empty($_POST['pref'])){
+			$err .= "ご住所（都道府県）は必須です。<br />";
+		}else{
+			$pref = $_POST['pref'];
+		}
+
+		if(empty($_POST['address'])){
+			$err .= "ご住所（都道府県以下） は必須です。<br />";
+		}else{
+			if(get_magic_quotes_gpc()){
+				$address = stripslashes($_POST['address']);
+				$address = htmlentities($address, ENT_QUOTES, "utf-8");
+			}else{
+				$address = htmlentities($_POST['address'], ENT_QUOTES, "utf-8");
+			}
+		}
+
+		if(empty($_POST['mail'])){
+		$err .= "メールアドレスは必須です。<br />";
+		}else{
+		$pattern = '/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/iD';
+		if(!preg_match($pattern,$_POST['mail'])){
+		$err .= "メールアドレスの形式が正しくありません。<br />";
+		}else{
+			if(get_magic_quotes_gpc()){
+				$mail = stripslashes($_POST['mail']);
+				$mail = htmlentities($mail, ENT_QUOTES, "utf-8");
+			}else{
+				$mail = htmlentities($_POST['mail'], ENT_QUOTES, "utf-8");
+			}
+		}
+		}
+
+		if(empty($_POST['telban'])){
+			$err .= "電話番号は必須です。<br />";
+		}else{
+		$pattern_telban = '/^[0-9-]{10}/';
+		if(!preg_match($pattern_telban,$_POST['telban'])){
+		$err .= "電話番号は『半角数字』の『10桁以上』でご入力ください。<br />";
+		}
+			if(get_magic_quotes_gpc()){
+				$telban = stripslashes($_POST['telban']);
+				$telban = htmlentities($telban, ENT_QUOTES, "utf-8");
+			}else{
+				$telban = htmlentities($_POST['telban'], ENT_QUOTES, "utf-8");
+			}
+		}
+
+						if(!empty($_POST['domain'])){
+		$pattern_domain = '/^(https?|ftp)(:\/\/[-_.!~*\'()a-zA-Z0-9;\/?:\@&=+\$,%#]+)$/';
+		if(!preg_match($pattern_domain,$_POST['domain'])){
+		$err .= "URLの形式が正しくありません。<br />";
+		}
+			  if(get_magic_quotes_gpc()){
+				$domain = stripslashes($_POST['domain']);
+				$domain = htmlentities($domain, ENT_QUOTES, "utf-8");
+			}else{
+				$domain = htmlentities($_POST['domain'], ENT_QUOTES, "utf-8");
+			}
+						}
+		if(!empty($_POST["con_01"])) {
+			print "";
+		} else if(!empty($_POST["con_02"])){
+			print "";
+		} else if(!empty($_POST["con_03"])){
+			print "";
+		} else if(!empty($_POST["con_04"])){
+			print "";
+		} else{
+		$err .= "お問合せ内容に１つ以上チェックを入れて
+ください<br />";
+		}
+
+
+
+  /* お問合せサービス「エラーメッセージ」 */
+
+
+
+
+						if(!empty($_POST['yosan'])){
+		$pattern_yosan = '/^[0-9-]{4}/';
+		if(!preg_match($pattern_yosan,$_POST['yosan'])){
+		$err .= "予算は『半角数字』の『4桁以上』でご入力ください。<br />";
+		}
+			if(get_magic_quotes_gpc()){
+				$yosan = stripslashes($_POST['yosan']);
+				$yosan = htmlentities($yosan, ENT_QUOTES, "utf-8");
+			}else{
+				$yosan = htmlentities($_POST['yosan'], ENT_QUOTES, "utf-8");
+			}
+						}
+
+		if(get_magic_quotes_gpc()){
+			$question = stripslashes($_POST['question']);
+			$question = htmlentities($question, ENT_QUOTES, "utf-8");
+		}else{
+			$question = htmlentities($_POST['question'], ENT_QUOTES, "utf-8");
+		}
+
+/*------------------------------
+　空欄がある場合はエラーメッセージ表示
+------------------------------*/
+if(!empty($err)){
+$sex = $_POST['sex'];
+?>
+
+<p style="font-weight:bold; color:#F00; margin-left:23px;">
+  <?=$err;?>
+</p>
+        <form id="frmInput" name="frmInput" method="post" action="<? basename($_SERVER['PHP_SELF']);?>">
+        <table width="620" border="0" class="toiform">
+  <tr>
+    <td width="180" height="30" bgcolor="#e9e7e4" ><div class="form_yoha"><label for="name">貴社名</label>
+    *</div></td>
+    <td width="430" bgcolor="#fdfbf3">
+<input name="name" type="text" class="form_text_zenkaku" id="name" size="50" maxlength="100" value="<?php echo htmlspecialchars($_POST['name'], ENT_QUOTES,'UTF-8'); ?>" />
+<?php if ($_POST['name'] == ''): ?>
+<?php endif; ?>
+</td>
+ </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">
+      <label for="name1">ご担当者名(漢字)
+    *</label></div></td>
+    <td bgcolor="#fdfbf3"><input name="name1" type="text" class="form_text_zenkaku" id="name1" size="50" maxlength="100" value="<?php echo htmlspecialchars($_POST['name1'], ENT_QUOTES,'UTF-8'); ?>" />
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">
+      <label for="name2">フリガナ
+    *</label></div></td>
+    <td bgcolor="#fdfbf3"><input name="name2" type="text" class="form_text_zenkaku" id="name2" size="50" maxlength="100" value="<?php echo htmlspecialchars($_POST['name2'], ENT_QUOTES,'UTF-8'); ?>" />
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">性別
+    *</div></td>
+    <td bgcolor="#fdfbf3">
+		  <?php $sex = $_POST['sex'];
+			$sexs = array('男性','女性');
+		  foreach ($sexs as $sex1){
+                  print '<label><input type="radio" name="sex[]" id="sex" value="' . $sex1 . '"';
+		if(in_array($sex1, $sex)){print "checked";}
+		print '>' . $sex1 . '</label>';
+		}
+		?>
+                </td></tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha"><label for="pref">ご住所(都道府県）</label>
+    *</div></td>
+    <td bgcolor="#fdfbf3">    <select name="pref">
+		  <?php
+		  $pref = $_POST['pref'];   //入力画面バック時に値継承
+                  $prefs = array('北海道','青森県','岩手県','宮城県','秋田県','山形県','福島県','茨城県','栃木県','群馬県','埼玉県','千葉県','東京都','神奈川県','富山県','石川県','福井県','山梨県','長野県','岐阜県','静岡県','愛知県','三重県','滋賀県','京都府','大阪府','兵庫県','奈良県','和歌山県','鳥取県','島根県','岡山県','広島県','山口県','徳島県','香川県','愛媛県','高知県','福岡県','佐賀県','長崎県','熊本県','大分県','宮崎県','鹿児島県','沖縄県');
+		print '<option value="">都道府県をクリックしてください</option>';
+ 			foreach ($prefs as $p){
+                  	print '<option value="' . $p . '"';
+			if($pref == $p){ print " selected"; }
+			print '>' . $p . '</option>';
+		  }
+		 ?>
+
+		</select>
+</td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">
+      <label for="address">ご住所(都道府県以下）*</label></div></td>
+    <td bgcolor="#fdfbf3">
+    <input name="address" type="text" class="form_text_zenkaku" id="address" size="50" maxlength="100" value="<?php echo htmlspecialchars($_POST['address'], ENT_QUOTES,'UTF-8'); ?>"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha"><label for="mail">メールアドレス</label>
+    *</div></td>
+    <td bgcolor="#fdfbf3">
+<input name="mail" type="text" id="mail" size="50" class="form_text_hankaku" maxlength="150" value="<?php print(htmlspecialchars($_POST['mail'])); ?>" />
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha"><label for="telban">電話番号</label>
+    *</div></td>
+    <td bgcolor="#fdfbf3">
+    <input name="telban" type="text" id="telban" size="50" class="form_text_hankaku" maxlength="100" value="<?php echo htmlspecialchars($_POST['telban'], ENT_QUOTES,'UTF-8'); ?>"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha"><label for="domain">URL</label></div></td>
+    <td bgcolor="#fdfbf3"><input name="domain" class="form_text_hankaku" type="text" id="domain" value="<?php print(htmlspecialchars($_POST['domain'])); ?>" size="42" />
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha"><label for="con">お問い合わせ内容</label>
+    *</div></td>
+    <td bgcolor="#fdfbf3">
+    <?php
+
+if($_REQUEST["con_01"]=="広告掲載のご依頼") $checked["con_01"]=" checked";
+if($_REQUEST["con_02"]=="掲載企業へのご質問等") $checked["con_02"]=" checked";
+if($_REQUEST["con_03"]=="掲載のご希望") $checked["con_03"]=" checked";
+if($_REQUEST["con_04"]=="その他") $checked["con_04"]=" checked";
+
+print <<<eof
+
+
+<input name="con_01" type="checkbox" value="広告掲載のご依頼" {$checked["con_01"]}/>広告掲載のご依頼
+<input name="con_02" type="checkbox" value="掲載企業へのご質問等" {$checked["con_02"]}/>掲載企業へのご質問等
+<input name="con_03" type="checkbox" value="掲載のご希望" {$checked["con_03"]}/>掲載のご希望
+<input name="con_04" type="checkbox" value="その他" {$checked["con_04"]}/>その他
+
+
+eof;
+?>
+
+
+
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha"><label for="yosan">ご予算</label></div></td>
+    <td bgcolor="#fdfbf3">
+    <input name="yosan" type="text" id="yosan" size="30" class="form_text_hankaku" maxlength="100" value="<?php echo htmlspecialchars($_POST['yosan'], ENT_QUOTES,'UTF-8'); ?>"/>円
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha"><label for="question">備考</label>
+    </div></td>
+    <td bgcolor="#fdfbf3">
+    <textarea name="question" class="form_text_zenkaku" id="question" cols="45" rows="3" />
+<?=($_POST['question'])?>
+</textarea>
+</td>
+</tr>
+
+ <tr>
+<th height="50" colspan="2">
+<input type="submit" value="前のページへ戻る" id="submit2" />
+<input name="input" type="submit" value="送信する" id="submit1" />
+</th>
+</tr>
+</table>
+</form>
+
+  <?
+} else {
+		/*------------------------------
+		　問題なければ確認画面表示
+		------------------------------*/
+?>
+<p><br />　　以下の内容でよろしければ、『送信』ボタンをクリックしてください。</p>
+<form id="frmInput" name="frmInput" method="post" action="thankyou.php">
+        <table width="620" border="0" class="toiform">
+  <tr>
+    <td width="180" height="30" bgcolor="#e9e7e4" ><div class="form_yoha"><label for="name">貴社名</label>
+    *</div></td>
+    <td width="430" bgcolor="#fdfbf3">
+    <div class="form_yoha1">
+<?=$name;?><input type="hidden" name="name" value="<?=$name;?>" />
+</div>
+</td>
+ </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">
+      <label for="name1">ご担当者名(漢字)
+    *</label></div></td>
+    <td bgcolor="#fdfbf3">
+<div class="form_yoha1"><?=$name1;?><input type="hidden" name="name1" value="<?=$name1;?>" />
+</div>
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">
+      <label for="name2">フリガナ</label>
+*</div></td>
+    <td bgcolor="#fdfbf3">
+    <div class="form_yoha1">
+<?=$name2;?><input type="hidden" name="name2" value="<?=$name2;?>" />
+</div>
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">性別
+    *</div></td>
+    <td bgcolor="#fdfbf3">
+<div class="form_yoha1">
+<?php foreach ($_POST['sex'] as $sex){print (htmlspecialchars($sex , ENT_QUOTES));} ?>
+<input type="hidden" name="sex" value="<?php foreach ($_POST['sex'] as $sex){print (htmlspecialchars($sex , ENT_QUOTES));} ?>" />
+</div>
+</td>
+</tr>
+
+<tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">ご住所
+    *</div></td>
+<td bgcolor="#fdfbf3">
+<div class="form_yoha1">
+<?=$pref;?>　<?=$address;?>
+<input type="hidden" name="pref" value="<?=$pref;?>" />
+<input type="hidden" name="address" value="<?=$address;?>" />
+</div>
+</td>
+</tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">
+          <label for="mail">メールアドレス</label>
+*</div></td>
+<td bgcolor="#fdfbf3">
+<div class="form_yoha1">
+<?=$mail;?><input type="hidden" name="mail" value="<?=$mail;?>" />
+</div>
+</td>
+</tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">
+      <label for="telban">電話番号</label>
+*</div></td>
+    <td bgcolor="#fdfbf3">
+<div class="form_yoha1">
+<?=$telban;?><input type="hidden" name="telban" value="<?=$telban;?>" />
+</div>
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">
+      <label for="domain">URL</label></div></td>
+    <td bgcolor="#fdfbf3">
+<div class="form_yoha1">
+<?=$domain;?><input type="hidden" name="domain" value="<?=$domain;?>" />
+</div>
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">お問い合わせ内容
+    *</div></td>
+    <td bgcolor="#fdfbf3">
+<?php
+if (isset($_POST["con_01"])) {
+print $_POST["con_01"];
+}?><br />
+<input type="hidden" name="con_01" value="<?php
+if (isset($_POST["con_01"])) {
+print $_POST["con_01"];
+}?>" />
+
+<?php
+if (isset($_POST["con_02"])) {
+print $_POST["con_02"];
+}?><br />
+<input type="hidden" name="con_02" value="<?php
+if (isset($_POST["con_02"])) {
+print $_POST["con_02"];
+}?>" />
+
+<?php
+if (isset($_POST["con_03"])) {
+print $_POST["con_03"];
+}?><br />
+<input type="hidden" name="con_03" value="<?php
+if (isset($_POST["con_03"])) {
+print $_POST["con_03"];
+}?>" />
+
+<?php
+if (isset($_POST["con_04"])) {
+print $_POST["con_04"];
+}?><br />
+<input type="hidden" name="con_04" value="<?php
+if (isset($_POST["con_04"])) {
+print $_POST["con_04"];
+}?>" />
+
+
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">
+      <label for="yosan">ご予算</label></div></td>
+    <td bgcolor="#fdfbf3">
+<div class="form_yoha1">
+<?=$yosan;?><input type="hidden" name="yosan" value="<?=$yosan;?>" />
+</div>
+    </td>
+  </tr>
+
+  <tr>
+    <td height="30" bgcolor="#e9e7e4"><div class="form_yoha">
+      <label for="yosan">備考</label></div></td>
+    <td bgcolor="#fdfbf3">
+    <div class="form_yoha_question">
+<?="<FONT COLOR=\"BLACK\">$question</FONT>";?><input type="hidden" name="question" value="<?=$question;?>" />
+</div>
+</td>
+</tr>
+
+ <tr>
+<th height="68" colspan="2">
+<input type="button" onclick="history.back()" value="前のページへ戻る" id="submit2" />
+<input name="input" type="submit" value="送信する" id="submit3" />
+</th>
+</tr>
+</table>
+</form>
+<?
+	}
+}
+if($_POST['input'] == "送信する"){
+
+	if(get_magic_quotes_gpc()){
+		$name = stripslashes($_POST['name']);
+		$name = htmlentities($name, ENT_QUOTES, "utf-8");
+	}else{
+		$name = htmlentities($_POST['name'], ENT_QUOTES, "utf-8");
+	}
+
+	if(get_magic_quotes_gpc()){
+		$name1 = stripslashes($_POST['name1']);
+		$name1 = htmlentities($name1, ENT_QUOTES, "utf-8");
+	}else{
+		$name1 = htmlentities($_POST['name1'], ENT_QUOTES, "utf-8");
+	}
+
+	if(get_magic_quotes_gpc()){
+		$name2 = stripslashes($_POST['name2']);
+		$name2 = htmlentities($name2, ENT_QUOTES, "utf-8");
+	}else{
+		$name2 = htmlentities($_POST['name2'], ENT_QUOTES, "utf-8");
+	}
+
+	$sex = $_POST['sex'];
+
+	$pref = $_POST['pref'];
+
+	if(get_magic_quotes_gpc()){
+		$address = stripslashes($_POST['address']);
+		$address = htmlentities($address, ENT_QUOTES, "utf-8");
+	}else{
+		$address = htmlentities($_POST['address'], ENT_QUOTES, "utf-8");
+	}
+
+	if(get_magic_quotes_gpc()){
+		$mail = stripslashes($_POST['mail']);
+		$mail = htmlentities($mail, ENT_QUOTES, "utf-8");
+	}else{
+		$mail = htmlentities($_POST['mail'], ENT_QUOTES, "utf-8");
+	}
+
+	if(get_magic_quotes_gpc()){
+		$telban = stripslashes($_POST['telban']);
+		$telban = htmlentities($telban, ENT_QUOTES, "utf-8");
+	}else{
+		$telban = htmlentities($_POST['telban'], ENT_QUOTES, "utf-8");
+	}
+
+	if(get_magic_quotes_gpc()){
+		$domain = stripslashes($_POST['domain']);
+		$domain = htmlentities($domain, ENT_QUOTES, "utf-8");
+	}else{
+		$domain = htmlentities($_POST['domain'], ENT_QUOTES, "utf-8");
+	}
+
+	$con_01 = $_POST['con_01'];
+	$con_02 = $_POST['con_02'];
+	$con_03 = $_POST['con_03'];
+	$con_04 = $_POST['con_04'];
+
+	$hobby = $_POST['hobby'];
+
+	if(get_magic_quotes_gpc()){
+		$yosan = stripslashes($_POST['yosan']);
+		$yosan = htmlentities($yosan, ENT_QUOTES, "utf-8");
+	}else{
+		$yosan = htmlentities($_POST['yosan'], ENT_QUOTES, "utf-8");
+	}
+
+		if(get_magic_quotes_gpc()){
+		$question = stripslashes($_POST['question']);
+		$question = htmlentities($question, ENT_QUOTES, "utf-8");
+	}else{
+		$question = htmlentities($_POST['question'], ENT_QUOTES, "utf-8");
+	}
+	}
+?>
+</div>
+
+<div class="about_lead_right">
+<img src="" height="400px" width="300px">
+</div>
+
+
+<footer>
+<small>Copyrights(C)2015-2016 思わず紹介.com,Inc.<br>
+All Rights Reserved.
+</small>
+</footer>
+</body>
+</html>
