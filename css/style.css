@@ -603,10 +603,26 @@ header div#header nav li{
 header div#header nav li a{
 	color:#ffffff;
 	text-decoration:none;
+	position: relative;
+	display: inline-block;
+	transition: .3s;
+}
+
+header div#header nav li a::after{
+	position: absolute;
+	bottom: -4px;
+	left: 50%;
+	content: '';
+	width: 0;
+	height: 3px;
+	background-color: #20bbd2;
+	transition: .3s;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
 }
 
 header div#header nav li a:hover::after{
-
+	width: 100%;
 }
 
 i{
