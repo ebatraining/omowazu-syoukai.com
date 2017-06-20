@@ -12,6 +12,7 @@
 <link href="favicon.ico" rel="shortcut icon">
 <link href="css/hover-min.css" rel="stylesheet">
 <link href="css/default.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <!--全体フェードイン効果-->
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script>
@@ -31,6 +32,15 @@ body {
 <body>
 	<header>
 		<?php include( $_SERVER['DOCUMENT_ROOT'] . '/global_menu.php'); ?>
+		<img src="./img/top_view.jpg">
+		<h1><img src="./img/logo.png" alt="思わず紹介.comのロゴ"></h1>
+		<nav>
+			<ul>
+				<li><a href=""><i class="fa fa-question-circle-o" aria-hidden="true"></i>このサイトについて</a></li>
+				<li><a href=""><i class="fa fa-window-maximize" aria-hidden="true"></i>様々なサイト</a></li>
+				<li><a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i>お問い合わせ</a></li>
+			</ul>
+		</nav>
 	</header>
 	<div class="contents">
 		<article class="news">
