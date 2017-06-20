@@ -33,14 +33,16 @@ body {
 	<header>
 		<?php include( $_SERVER['DOCUMENT_ROOT'] . '/global_menu.php'); ?>
 		<img src="./img/top_view.jpg">
-		<h1><img src="./img/logo.png" alt="思わず紹介.comのロゴ"></h1>
-		<nav>
-			<ul>
-				<li><a href=""><i class="fa fa-question-circle-o" aria-hidden="true"></i>このサイトについて</a></li>
-				<li><a href=""><i class="fa fa-window-maximize" aria-hidden="true"></i>様々なサイト</a></li>
-				<li><a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i>お問い合わせ</a></li>
-			</ul>
-		</nav>
+		<div id="header">
+			<h1><img src="./img/logo.png" alt="思わず紹介.comのロゴ"></h1>
+			<nav>
+				<ul>
+					<li><a href=""><i class="fa fa-question-circle-o" aria-hidden="true"></i>このサイトについて</a></li>
+					<li><a href=""><i class="fa fa-window-maximize" aria-hidden="true"></i>様々なサイト</a></li>
+					<li><a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i>お問い合わせ</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 	<article class="news">
 		<h2>新着情報</h2>
