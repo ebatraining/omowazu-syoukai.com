@@ -7,12 +7,11 @@
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <meta name="keywords" content="思わず紹介.com,ホームページ一覧,ホームページ,Webサイト">
 <meta name="description" content="思わず紹介.comでは、様々なホームページを、思わずご紹介させていただいております。ご興味のあるホームページがございましたら、ぜひお気軽に当ページにアクセスしてみてください。">
+<meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="css/style.css">
 <link href="favicon.ico" rel="shortcut icon">
 <link href="css/hover-min.css" rel="stylesheet">
-<link href="css/nivo-slider.css" rel="stylesheet">
 <link href="css/default.css" rel="stylesheet">
-<meta name="viewport" content="width=device-width">
 <!--全体フェードイン効果-->
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script>
@@ -34,39 +33,31 @@ body {
 		<?php include( $_SERVER['DOCUMENT_ROOT'] . '/global_menu.php'); ?>
 	</header>
 	<div class="contents">
-		<section class="news">
+		<article class="news">
 			<div class="background">
 				<h2>新着情報</h2>
 			</div>
-			<article>
-				<time>2016/08/23</time>
-				<p>新規口コミ投稿</p>
-			</article>
-			<article>
-				<time>2016/08/10</time>
-				<p>新規口コミ投稿</p>
-			</article>
-			<article>
-				<time>2016/07/25</time>
-				<p>新規口コミ投稿</p>
-			</article>
-			<article>
-				<time>2016/07/13</time>
-				<p>新規口コミ投稿</p>
-			</article>
-			<article>
-				<time>2016/06/27</time>
-				<p>新規口コミ投稿</p>
-			</article>
-		</section>
+			<dl>
+				<dt>2016/08/23</dt>
+				<dd>新規口コミ投稿</dd>
+				<dt>2016/08/10</dt>
+				<dd>新規口コミ投稿</dd>
+				<dt>2016/07/25</dt>
+				<dd>新規口コミ投稿</dd>
+				<dt>2016/07/13</dt>
+				<dd>新規口コミ投稿</dd>
+				<dt>2016/06/27</dt>
+				<dd>新規口コミ投稿</dd>
+			</dl>
+		</article>
 	</div>
-	<section class="about_top">
+	<article class="about_top">
 		<div class="background">
 			<h2>思わず紹介.comとは？</h2>
 		</div>
 		<p>思わず紹介.comとは、全世界に存在するWebサイトの中から、思わず紹介したくなる情報をまとめたサイトです！
 		気になる記事がありましたら、ぜひクリックしてみてください。</p>
-	</section>
+	</article>
 	<div id="site">
 		<p>現在紹介中のサイト</p>
 		<ul class="element">
