@@ -7,7 +7,7 @@ body{
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	margin: 0 auto;
 }
-	
+/*	
 a{
 	color: #333;
 	text-decoration: none; 
@@ -110,6 +110,8 @@ header ul li:nth-child(odd){
 	text-align: center;
 	/*margin-top: 10px;*/
 }
+
+/*
 
 .pager{
 	max-width:950px;
@@ -316,7 +318,7 @@ dl dt,dl dd{
 .con_right p{
 	line-height: 1.4;
 }
-/**/
+
 #site{
 	clear: both;
 	max-width: 900px;
@@ -365,7 +367,7 @@ dl dt,dl dd{
 		/*overflow: hidden;*/
 		max-width:none;
 	}
-
+/*
 	.max{
 		overflow:hidden;
 		max-width: 950px;
@@ -550,29 +552,63 @@ dl dt,dl dd{
 
 	.contact .contents p{
 		clear: both;
-	}
+	}file:///C:/Users/EBA/Documents/omowazu-syoukai.com/img/top_view.jpg
 
 	.news article time{
 		width: 50%;
 		float:left;
 		line-height: 2.5;
 	}
-/**/
 }
+*/
 
 /* 2017/6/20 更新　*/
+header{
+	margin:0 auto;
+}
 
 header img{
 	width:100%;
 }
 
 header div#header{
-	width:90%;
+	width:98%;
 	position:absolute;
 	top:1%;
 	left:1%;
+	overflow:hidden;
 }
 
-h1 img{
-	width:325px;
+header h1{
+	width:24%;
+	/*width:325px;*/
+	float:left;
+}
+
+header div#header nav{
+	width:29%;
+	float:right;
+}
+
+header div#header nav ul{
+
+}
+
+header div#header nav li{
+	float:left;
+	list-style:none;
+	padding-left:2%;
+}
+
+header div#header nav li a{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+header div#header nav li a:hover::after{
+
+}
+
+i{
+	padding-right:5px;
 }
