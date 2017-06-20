@@ -64,69 +64,48 @@ $(window).load(function() {
     });
 });
 </script>
-
 </head>
 
 <body>
-
 	<header>
-		<div class="background">
-			<div class="max">
-				<div class="logo">
-					<a href="index.html"><img src="img/logo.png" alt="思わず紹介.com"></a>
-				</div>
-				<ul>
-					<li><a href="index.html"><img src="img/button_top.png" alt="TOP"></a></li>
-					<li><a href="kuchikomi01.html"><img src="img/button_samazama.png" alt="様々なサイト"></a></li>
-					<li><a href="about.html"><img src="img/button_about.png" alt="このサイトについて"></a></li>
-					<li><a href="contact.php"><img src="img/button_contact.png" alt="お問い合わせ"></a></li>
-				</ul>
-			</div>
-		</div>
-
-		<div class="slider-wrapper theme-default">
-			<div id="slider" class="nivoSlider">
-				<img src="./img/mv.gif" alt="思わず紹介.com">
-				<a href="http://www.creed-greenrental.com/" target="_blank"><img src="./img/creed.png" alt="クリード"></a>
-				<a href="http://www.misumi.jp.net/" target="_blank"><img src="./img/misumi.png" alt="MISUMI"></a>
-				<a href="http://ebacorp.jp/" target="_blank"><img src="./img/eba.png" alt="EBA"></a>
-			</div>
-		</div>
+		<?php include( $_SERVER['DOCUMENT_ROOT'] . '/global_menu.php'); ?>
 	</header>
-
 	<div class="contents">
 		<section class="news">
-			<div class="background"><h2>新着情報</h2></div>
-
+			<div class="background">
+				<h2>新着情報</h2>
+			</div>
 			<article>
-			<time>2016/08/23</time>
-			<p>新規口コミ投稿</p>
+				<time>2016/08/23</time>
+				<p>新規口コミ投稿</p>
 			</article>
 			<article>
-			<time>2016/08/10</time>
-			<p>新規口コミ投稿</p>
+				<time>2016/08/10</time>
+				<p>新規口コミ投稿</p>
 			</article>
 			<article>
-			<time>2016/07/25</time>
-			<p>新規口コミ投稿</p>
+				<time>2016/07/25</time>
+				<p>新規口コミ投稿</p>
 			</article>
 			<article>
-			<time>2016/07/13</time>
-			<p>新規口コミ投稿</p>
+				<time>2016/07/13</time>
+				<p>新規口コミ投稿</p>
 			</article>
 			<article>
-			<time>2016/06/27</time>
-			<p>新規口コミ投稿</p>
+				<time>2016/06/27</time>
+				<p>新規口コミ投稿</p>
 			</article>
 		</section>
 	</div>
-
 	<section class="about_top">
-		<div class="background"><h2>思わず紹介.comとは？</h2></div>
+		<div class="background">
+			<h2>思わず紹介.comとは？</h2>
+		</div>
 		<p>思わず紹介.comとは、全世界に存在するWebサイトの中から、思わず紹介したくなる情報をまとめたサイトです！
 		気になる記事がありましたら、ぜひクリックしてみてください。</p>
 	</section>
-	<div id="site"><p>現在紹介中のサイト</p>
+	<div id="site">
+		<p>現在紹介中のサイト</p>
 		<ul class="element">
 		  <li><a href="http://www.creed-greenrental.com/" class="hvr-grow"><img class="target" src="img/1_off.jpg" width="140" height="140" alt="" /></a></li>
 		  <li><a href="http://casamingo.gift/" class="hvr-shrink"><img class="target" src="img/2_off.jpg" width="140" height="140" alt="" /></a></li>
@@ -155,7 +134,6 @@ $(window).load(function() {
 		  <li><a href="http://nakanotani.com/" class="hvr-wobble-skew"><img class="target" src="img/25_off.jpg" width="140" height="140" alt="" /></a></li>
 		  <li><a href="http://www.rental-o.com/" class="hvr-buzz"><img class="target" src="img/26_off.jpg" width="140" height="140" alt="" /></a></li>
 		  <li><a href="http://beauty-doll.net/" class="hvr-outline-out"><img class="target" src="img/27_off.jpg" width="140" height="140" alt="" /></a></li>
-
 		  <li><a href="http://accessory-ranking.com" class="hvr-shadow"><img class="target" src="img/28_off.jpg" width="140" height="140" alt="" /></a></li>
 		  <li><a href="http://syoukai-blog.com/" class="hvr-float-shadow"><img class="target" src="img/29_off.jpg" width="140" height="140" alt="" /></a></li>
 		  <li><a href="http://jyouhou-hasshin.com/" class="hvr-curl-top-left"><img class="target" src="img/30_off.jpg" width="140" height="140" alt="" /></a></li>
@@ -167,9 +145,9 @@ $(window).load(function() {
 		</ul>
 	</div>
 	<footer>
-	  <small>Copyrights(C)2015-2016 思わず紹介.com,Inc.<br>
-	All Rights Reserved.
-	</small>
+	  	<small>Copyrights(C)2015-2016 思わず紹介.com,Inc.<br>
+			All Rights Reserved.
+		</small>
 	</footer>
 </body>
 </html>
