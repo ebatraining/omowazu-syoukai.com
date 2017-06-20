@@ -42,29 +42,23 @@ body {
 			</ul>
 		</nav>
 	</header>
-	<div class="contents">
-		<article class="news">
-			<div class="background">
-				<h2>新着情報</h2>
-			</div>
-			<dl>
-				<dt>2016/08/23</dt>
-				<dd>新規口コミ投稿</dd>
-				<dt>2016/08/10</dt>
-				<dd>新規口コミ投稿</dd>
-				<dt>2016/07/25</dt>
-				<dd>新規口コミ投稿</dd>
-				<dt>2016/07/13</dt>
-				<dd>新規口コミ投稿</dd>
-				<dt>2016/06/27</dt>
-				<dd>新規口コミ投稿</dd>
-			</dl>
-		</article>
-	</div>
+	<article class="news">
+		<h2>新着情報</h2>
+		<dl>
+			<dt>2016/08/23</dt>
+			<dd>新規口コミ投稿</dd>
+			<dt>2016/08/10</dt>
+			<dd>新規口コミ投稿</dd>
+			<dt>2016/07/25</dt>
+			<dd>新規口コミ投稿</dd>
+			<dt>2016/07/13</dt>
+			<dd>新規口コミ投稿</dd>
+			<dt>2016/06/27</dt>
+			<dd>新規口コミ投稿</dd>
+		</dl>
+	</article>
 	<article class="about_top">
-		<div class="background">
-			<h2>思わず紹介.comとは？</h2>
-		</div>
+		<h2>思わず紹介.comとは？</h2>
 		<p>思わず紹介.comとは、全世界に存在するWebサイトの中から、思わず紹介したくなる情報をまとめたサイトです！
 		気になる記事がありましたら、ぜひクリックしてみてください。</p>
 	</article>
@@ -109,9 +103,7 @@ body {
 		</ul>
 	</div>
 	<footer>
-	  	<small>Copyrights&copy;2015-2016 思わず紹介.com,Inc.<br>
-			All Rights Reserved.
-		</small>
+	  	<small>Copyrights&copy;2015-2016 思わず紹介.com,Inc.<br>All Rights Reserved.</small>
 	</footer>
 </body>
 </html>
