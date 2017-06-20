@@ -13,7 +13,6 @@
 <link href="css/nivo-slider.css" rel="stylesheet">
 <link href="css/default.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width">
-
 <!--全体フェードイン効果-->
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script>
@@ -21,51 +20,15 @@ $(document).ready(function() {
 	$('body').fadeIn(1500);
 });
 </script>
-
 <style type="text/css">
 body {
 	display: none;
 }
 </style>
-<!--全体フェードイン効果-->
-
-<!--画像が順番にフェードインする効果
-<script type="text/javascript" src="js/jquery-scrollInTurn.js"></script>
-<script type="text/javascript">
-  $(document).ready(function() {
-    $('.element').scrollInTurn();
-  });
-</script>
-画像が順番にフェードインする効果-->
-
+<!--
 <script src="js/smart-crossfade.js"></script>
-
-<!--スライドショー-->
-<script src="./js/jquery.nivo.slider.pack.js"></script>
-<script type="text/javascript">
-$(window).load(function() {
-    $('#slider').nivoSlider({
-        effect:'random',
-        slices:5,
-        animSpeed:100, //画像が切り替わるスピード
-        pauseTime:5000, //画像が切り替わるまでの時間
-        startSlide:0, //最初に表示する画像
-        directionNav:true, //矢印を表示する
-        directionNavHide:true, //マウスを乗せたときに矢印を表示
-        controlNav:true, //1,2,3...
-        controlNavThumbsSearch: '.jpg',
-        controlNavThumbsReplace: '_thumb.jpg',
-        keyboardNav:true, //Use left & right arrows
-        pauseOnHover:true, //オンマウスで画像が止まる
-        manualAdvance:false, //Force manual transitions
-        beforeChange: function(){},
-        afterChange: function(){},
-        slideshowEnd: function(){}
-    });
-});
-</script>
+-->
 </head>
-
 <body>
 	<header>
 		<?php include( $_SERVER['DOCUMENT_ROOT'] . '/global_menu.php'); ?>
@@ -145,7 +108,7 @@ $(window).load(function() {
 		</ul>
 	</div>
 	<footer>
-	  	<small>Copyrights(C)2015-2016 思わず紹介.com,Inc.<br>
+	  	<small>Copyrights&copy;2015-2016 思わず紹介.com,Inc.<br>
 			All Rights Reserved.
 		</small>
 	</footer>
