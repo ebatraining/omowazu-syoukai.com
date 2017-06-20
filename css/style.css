@@ -5,19 +5,22 @@ body{
 	background-color: #fff;
 	color: #333;
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-
 	margin: 0 auto;
-	}
+}
 	
 a{
 	color: #333;
 	text-decoration: none; 
 }
+
 img{
-	vertical-align: bottom;}
+	vertical-align: bottom;
+}
 
 .opa0{
-	opacity: 0;}	
+	opacity: 0;
+}
+
 .background{
 	background-image: -webkit-gradient(
 	linear,
@@ -25,34 +28,35 @@ img{
 	left bottom,
 	color-stop(0.38, #FFEDEE),
 	color-stop(1, #FFE0E9)
-);
-background-image: -o-linear-gradient(bottom, #FFEDEE 38%, #FFE0E9 100%);
-background-image: -moz-linear-gradient(bottom, #FFEDEE 38%, #FFE0E9 100%);
-background-image: -webkit-linear-gradient(bottom, #FFEDEE 38%, #FFE0E9 100%);
-background-image: -ms-linear-gradient(bottom, #FFEDEE 38%, #FFE0E9 100%);
-background-image: linear-gradient(to bottom, #FFEDEE 38%, #FFE0E9 100%);
-max-width:950px;
-margin: 0 auto;
-margin-bottom: 10px;
-border-bottom: 1px solid #ffd9e4;
-border-top: 1px solid #ffd9e4;
+	);
+	background-image: -o-linear-gradient(bottom, #FFEDEE 38%, #FFE0E9 100%);
+	background-image: -moz-linear-gradient(bottom, #FFEDEE 38%, #FFE0E9 100%);
+	background-image: -webkit-linear-gradient(bottom, #FFEDEE 38%, #FFE0E9 100%);
+	background-image: -ms-linear-gradient(bottom, #FFEDEE 38%, #FFE0E9 100%);
+	background-image: linear-gradient(to bottom, #FFEDEE 38%, #FFE0E9 100%);
+	max-width:950px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ffd9e4;
+	border-top: 1px solid #ffd9e4;
 }
 
 .logo{
 	text-align: center;
 	margin-bottom: 10px;
-	}
+}
+
 header .mv{
 	width: 100%;
 	margin: 0 auto;
-	max-width: 950px;}
+	max-width: 950px;
+}
 
 header .mv img{
 	width: 100%;
 	height: auto;
-	max-width: 950px;}
-	
-
+	max-width: 950px;
+}	
 
 header ul{
 	text-align: center;
@@ -64,44 +68,48 @@ header ul li{
 	width: 50%;
 	float: left;
 	border-bottom: 2px solid #ffd9e4;
-	
-	
-	}
+}
 
 .kuchikomi h2{
 	padding-bottom: 15px;
+	margin-bottom: 24px;
+	font-size: 1.4em;
+	padding-top: 15px;
+}
 
-margin-bottom: 24px;
-font-size: 1.4em;
+.kuchikomi .contents{margin-top: 10px;
+}
 
-padding-top: 15px;}	
-.kuchikomi .contents{margin-top: 10px;}
-
-.mar10{margin-top: 10px;}
+.mar10{margin-top: 10px;
+}
 	
 header ul li:first-child,header ul li:nth-child(2){
-	border-top: 2px solid #ffd9e4;}
+	border-top: 2px solid #ffd9e4;
+}
 	
 header ul li a{
 	width: 100%;
 	display: block;
 	transition: all .4s ease 0s;
-	}
+}
 	
 header ul li a:hover{
-	background-color:#FFC5EC;}
+	background-color:#FFC5EC;
+}
 	 
 header ul li:nth-child(odd){
 	border-right: 1px dotted #ff8aac;
 	height: 60%;
-	width: 49%;}
+	width: 49%;
+}
 	
 .kuchikomi h2{
 	width: 100%;
 	margin: 0 auto;
 	max-width: 950px;
 	text-align: center;
-	/*margin-top: 10px;*/}
+	/*margin-top: 10px;*/
+}
 
 .pager{
 	max-width:950px;
@@ -109,53 +117,62 @@ header ul li:nth-child(odd){
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 10px;
-	padding-bottom: 15px;}
+	padding-bottom: 15px;
+}
 
 .pager i{
 	padding: 6px;
 	border: 1px solid #333;
-	margin-right: 5px;}
+	margin-right: 5px;
+}
 
 .pager span{
 	padding:  3px 6px;
 	padding-bottom: 1px;
 	border: 1px solid #333;
-	margin-right: 5px;}
+	margin-right: 5px;
+}
 
 .pager .kuchi_on{
 	background-color: #333;
-	color: #fff;}
+	color: #fff;
+}
+
 .contents{
-}	
+
+}
+
 .contents article{
 	width: 50%;
 	float: left;
 	text-align: center;
-	margin-bottom: 24px;}
+	margin-bottom: 24px;
+}
 	
 .contents article h3{
 	margin-top: 15px;
 	font-size: 1.2em;
 	height: 30px;
 	padding-bottom: 15px;
-	}
+}
 	
 .contents article h4{
 	margin-top: 15px;
 	font-size:0.6em;
 	height: 30px;
-	padding-bottom: 15px;}
+	padding-bottom: 15px;
+}
 	
 .contents article p{
 	padding: 0 10px;
-	font-size: 1em;}
+	font-size: 1em;
+}
 	
 .contents{
 	margin-bottom: 24px;
-	overflow:hidden;}
-	
-	
-	
+	overflow:hidden;
+}
+		
 footer{
 	width: 100%;
 	text-align: center;
@@ -163,13 +180,12 @@ footer{
 	clear:both;
 	line-height: 1.5;
 	font-size: 1.2em;
-	}
+}
 
 .news{width: 100%;
-text-align: center;
-margin-top: 10px;
-overflow: hidden;
-
+	text-align: center;
+	margin-top: 10px;
+	overflow: hidden;
 }
 
 .news h2{
@@ -182,21 +198,25 @@ overflow: hidden;
 
 .news article{
 	width: 100%;
-	font-size: 1.2em;}
+	font-size: 1.2em;
+}
 	
 .news article time{
 	display:block;
 	width: 100%;
-	margin-bottom: 15px;}
+	margin-bottom: 15px;
+}
 	
 .news artcicle p{
 	width: 100%;
-	padding: 0 10px;}
+	padding: 0 10px;
+}
 	
 .about_top{
 	width: 100%;
 	text-align: center;
-	clear: both;}
+	clear: both;
+}
 	
 .about_top h2{
 	padding-bottom: 15px;
@@ -209,13 +229,13 @@ overflow: hidden;
 .about_top p{
 	font-size: 1.2em;
 	text-align: left;
-	}
-	
-	
-body .about_lead {
+}
+
+body .about_lead{
 	text-align: center;
 	width: 100%;
-	float: left;}
+	float: left;
+}
 	
 .contents .about_lead p{
 	font-size: 1.2em;
@@ -223,77 +243,87 @@ body .about_lead {
 	margin-bottom: 15px;
 	text-align: left;
 	line-height: 1.8;
-	}
+}
 	
 .contents .about_lead p:last-child{
-	margin-bottom: 0;}
+	margin-bottom: 0;
+}
 	
 .about_lead_right{
 	width: 100%;
-
 	padding: 0 10px;
 	max-width: 455px;
 	margin: 0 auto;
 	clear: both;
-	}
+}
 	
 .about_lead_right img{
 	width: 100%;
 	height: auto;
-	}
+}
 	
 #about .contents{
 	width: 50%;
-	float: left;}
+float: left;
+}
 	
-html{overflow-y:scroll;}
+html{
+	overflow-y:scroll;
+}
 
 .con_left img{
 	width: 100%;
 	height: auto;
-
-		min-width: 140px;
+	min-width: 140px;
 	min-height: 140px;
 	max-width: 140px;
 }
 
 .about h2{
-		padding-bottom: 15px;
-
+	padding-bottom: 15px;
 	font-size: 1.4em;
 	padding-top:15px;
-text-align: center;
-	}
+	text-align: center;
+}
 
 .contact h2{
 	padding: 15px 0;
-	text-align: center;}
+	text-align: center;
+}
 	
 .contact .contents{
 	max-width: 950px;
 	margin: 0 auto;
 	width: 100%;
 	float:none;
-	text-align: center;}
+	text-align:center;
+}
 
 .contents table{
 	width: 100%;
 	max-width: 950px;
-	margin-top: 10px;}
+	margin-top: 10px;
+}
 	
-.contents table th,.contents table td{width: 50%;}
+.contents table th,.contents table td{
+	width: 50%;
+}
 
-dl dt,dl dd{padding: 8px 0;}
+dl dt,dl dd{
+	padding: 8px 0;
+}
 
-.con_right p{ line-height: 1.4;
+.con_right p{
+	line-height: 1.4;
 }
 /**/
-#site {
+#site{
 	clear: both;
 	max-width: 900px;
 	width: 100%;
 	margin: 0 auto;
 }
+
 #site p {
 	font-size: 120%;
 	font-weight: 900;
@@ -302,6 +332,7 @@ dl dt,dl dd{padding: 8px 0;}
 	padding-left: 20px;
 	margin-bottom: 20px;
 }
+
 #site ul {
 	padding: 10px 0 10px 10px;
 	margin: 0 auto;
@@ -310,154 +341,184 @@ dl dt,dl dd{padding: 8px 0;}
     -moz-border-radius:10px;
 	border-radius:10px;
 	overflow: hidden;
-
 }
+
 #site li {
 	float: left;
 	padding: 10px 10px 10px 20px;
 	margin: 0 auto;
 }
+
 #site img {
 	border: 1px solid #cccccc;
 }
 
 @media only screen and (min-width: 769px){
 	
-	.logo{float:left;
-	padding:10px 0 10px 20px;
-	width: 13%;}
-	.background{/*overflow: hidden;*/
-	max-width:none;
+	.logo{
+		float:left;
+		padding:10px 0 10px 20px;
+		width: 13%;
 	}
-	.max{overflow:hidden;
-	max-width: 950px;
-	margin: 0 auto;}
+
+	.background{
+		/*overflow: hidden;*/
+		max-width:none;
+	}
+
+	.max{
+		overflow:hidden;
+		max-width: 950px;
+		margin: 0 auto;
+	}
 	
 	header ul{
 		margin-right: auto;
 		margin-left: auto;
 		width:80%;
-		padding-top: 25px;}
+		padding-top: 25px;
+	}
+
 	header ul li{
 		width: 25%;
 		border-right: 1px dotted #ff8aac;
 		box-sizing: border-box;
-		border-bottom: none;
-		
-		}
+		border-bottom: none;	
+	}
+
 	header ul li:nth-child(odd){
-		width: 25%;}
+		width: 25%;
+	}
 		
 	header ul li:last-child{
 		border-right: none;
-		}
-		header ul li:first-child,header ul li:nth-child(2){
-	border-top: none;}
- .contents{
+	}
+
+	header ul li:first-child,header ul li:nth-child(2){
+	border-top: none;
+	}
+
+	.contents{
 	 width: 50%;
 	 float: left;
-	 }
-.news,.about_top{margin-top: 10px;}
-.news .background,.about_top .background{
+	}
+
+	.news,.about_top{
+		margin-top: 10px;
+	}
+
+	.news .background,.about_top .background{
 	border-top: 1px solid #fed1e4;
-	border-bottom: 1px solid #fed1e4;}
+	border-bottom: 1px solid #fed1e4;
+	}
 
-.news h2{
-	padding: 0;
-	margin: 0;
-	border: none;
-	border-right: 1px dotted #ff8aac;
-margin-left: auto;
-max-width:475px;
-border-bottom: none;
-margin-bottom: 15px;
-margin-top: 15px;
+	.news h2{
+		padding: 0;
+		margin: 0;
+		border: none;
+		border-right: 1px dotted #ff8aac;
+		margin-left: auto;
+		max-width:475px;
+		border-bottom: none;
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
 
-}
+	.news article{
+		max-width: 475px;
+		float: none;
+		margin-left: auto;
+	}
 
-.news article{
-	max-width: 475px;
-	float: none;
-	margin-left: auto;}
 	.about_top{
 		width: 50%;
 		float: right;
 		clear: none;
 	}
-	.about_top h2{
-			padding: 0;
-	margin: 0;
 
+	.about_top h2{
+		padding: 0;
+		margin: 0;
 		border: none;
-	max-width: 455px;
-	float: none;
-	margin-right: auto;
-	border-bottom: none;
-	margin-bottom: 15px;
-margin-top: 15px;
-}
+		max-width: 455px;
+		float: none;
+		margin-right: auto;
+		border-bottom: none;
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
 	
 	.about_top p{
-	max-width: 455px;
-	float: none;
-	margin-right: auto;
-	text-align: left;
-	line-height: 2.5;
-	letter-spacing:-2px;}
-.contents article p{
-	line-height: 2.5;
-	text-align: left;}
+		max-width: 455px;
+		float: none;
+		margin-right: auto;
+		text-align: left;
+		line-height: 2.5;
+		letter-spacing:-2px;
+	}
 
-	
-	
+	.contents article p{
+	line-height: 2.5;
+	text-align: left;
+	}
+
 	.kuchikomi .contents{
 		width: 100%;
 		max-width:950px;
 		float:none;
 		margin: 0 auto;
 		margin-top: 8px;
-		padding-top: 2px;}
+		padding-top: 2px;
+	}
+
 	.kuchikomi .contents article{
 		width: 100%;
 		clear: both;
-		}	
+	}
+
 	.kuchikomi .contents article .con_left{
 		float: left;
 		width: 30%;
-		}
+	}
 		
 	.kuchikomi .contents article .con_right{
 		float: right;
 		width: 70%;
-		text-align: left;
-		
+		text-align: left;	
 	}
+
 	.kuchikomi .contents article .con_right p{
-		padding: 0;}
+		padding: 0;
+	}
+
 	.kuchikomi .contents article .con_right h3{
 		margin-top: 0;
-		padding-bottom: 0;}
+		padding-bottom: 0;
+	}
+
 	.kuchikomi .contents article .con_right h4{
 		margin-top: 0;
-		padding-bottom: 0;}
-		
-		.con_left img{
-	max-width: 140px;
-	max-height: 140px;
-
+		padding-bottom: 0;
 	}
+
+	.con_left img{
+		max-width: 140px;
+		max-height: 140px;
+	}
+
 	.about .contents{
 		max-width: 950px;
 		margin: 0 auto;
 		float: none;
-		width: 100%;}
-	 body .about_lead{
+		width: 100%;
+	}
 
+	body .about_lead{
 		 float: left;
 		 margin-top: 10px;
 		 width: 45%;
 		 max-width: 475px;
-		 }
+	}
 		 
 	body .about_lead_right{
 		width: 45%;
@@ -466,23 +527,52 @@ margin-top: 15px;
 		overflow: hidden;
 		padding: 0;
 		margin-right: auto;
-		clear: none;}
-		.about_lead_right img{
-			margin-top: -20px;}
-		dl{width: 100%;
-		}	
-		dl dt{
+		clear: none;
+	}
+
+	.about_lead_right img{
+		margin-top: -20px;
+	}
+
+	dl{
 		width: 100%;
-		padding: 8px 0;}
-		dl dd{
+	}
 
+	dl dt{
+		width: 100%;
+		padding: 8px 0;
+	}
+
+	dl dd{
 		width:100%;
-		padding: 8px 0;}
-		
-		.contact .contents p{ clear: both;}
-		.news article time{width: 50%;
-		float:left;
-		line-height: 2.5;}
-/**/
+		padding: 8px 0;
+	}
 
+	.contact .contents p{
+		clear: both;
+	}
+
+	.news article time{
+		width: 50%;
+		float:left;
+		line-height: 2.5;
+	}
+/**/
+}
+
+/* 2017/6/20 更新　*/
+
+header img{
+	width:100%;
+}
+
+header div#header{
+	width:90%;
+	position:absolute;
+	top:1%;
+	left:1%;
+}
+
+h1 img{
+	width:325px;
 }
