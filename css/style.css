@@ -7,16 +7,16 @@ body{
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	margin: 0 auto;
 }
-/*	
+
 a{
 	color: #333;
-	text-decoration: none; 
+	text-decoration: none;
 }
 
 img{
 	vertical-align: bottom;
 }
-
+/*
 .opa0{
 	opacity: 0;
 }
@@ -56,7 +56,7 @@ header .mv img{
 	width: 100%;
 	height: auto;
 	max-width: 950px;
-}	
+}
 
 header ul{
 	text-align: center;
@@ -82,27 +82,27 @@ header ul li{
 
 .mar10{margin-top: 10px;
 }
-	
+
 header ul li:first-child,header ul li:nth-child(2){
 	border-top: 2px solid #ffd9e4;
 }
-	
+
 header ul li a{
 	width: 100%;
 	display: block;
 	transition: all .4s ease 0s;
 }
-	
+
 header ul li a:hover{
 	background-color:#FFC5EC;
 }
-	 
+
 header ul li:nth-child(odd){
 	border-right: 1px dotted #ff8aac;
 	height: 60%;
 	width: 49%;
 }
-	
+
 .kuchikomi h2{
 	width: 100%;
 	margin: 0 auto;
@@ -150,31 +150,31 @@ header ul li:nth-child(odd){
 	text-align: center;
 	margin-bottom: 24px;
 }
-	
+
 .contents article h3{
 	margin-top: 15px;
 	font-size: 1.2em;
 	height: 30px;
 	padding-bottom: 15px;
 }
-	
+
 .contents article h4{
 	margin-top: 15px;
 	font-size:0.6em;
 	height: 30px;
 	padding-bottom: 15px;
 }
-	
+
 .contents article p{
 	padding: 0 10px;
 	font-size: 1em;
 }
-	
+
 .contents{
 	margin-bottom: 24px;
 	overflow:hidden;
 }
-		
+
 footer{
 	width: 100%;
 	text-align: center;
@@ -202,32 +202,32 @@ footer{
 	width: 100%;
 	font-size: 1.2em;
 }
-	
+
 .news article time{
 	display:block;
 	width: 100%;
 	margin-bottom: 15px;
 }
-	
+
 .news artcicle p{
 	width: 100%;
 	padding: 0 10px;
 }
-	
+
 .about_top{
 	width: 100%;
 	text-align: center;
 	clear: both;
 }
-	
+
 .about_top h2{
 	padding-bottom: 15px;
 	border-bottom: 1px solid #ffd9e4;
 	font-size: 1.4em;
 	padding-top:15px;
-	border-top: 1px solid #ffd9e4; 
+	border-top: 1px solid #ffd9e4;
 }
-	
+
 .about_top p{
 	font-size: 1.2em;
 	text-align: left;
@@ -238,7 +238,7 @@ body .about_lead{
 	width: 100%;
 	float: left;
 }
-	
+
 .contents .about_lead p{
 	font-size: 1.2em;
 	padding: 0 10px;
@@ -246,11 +246,11 @@ body .about_lead{
 	text-align: left;
 	line-height: 1.8;
 }
-	
+
 .contents .about_lead p:last-child{
 	margin-bottom: 0;
 }
-	
+
 .about_lead_right{
 	width: 100%;
 	padding: 0 10px;
@@ -258,17 +258,17 @@ body .about_lead{
 	margin: 0 auto;
 	clear: both;
 }
-	
+
 .about_lead_right img{
 	width: 100%;
 	height: auto;
 }
-	
+
 #about .contents{
 	width: 50%;
 float: left;
 }
-	
+
 html{
 	overflow-y:scroll;
 }
@@ -292,7 +292,7 @@ html{
 	padding: 15px 0;
 	text-align: center;
 }
-	
+
 .contact .contents{
 	max-width: 950px;
 	margin: 0 auto;
@@ -306,7 +306,7 @@ html{
 	max-width: 950px;
 	margin-top: 10px;
 }
-	
+
 .contents table th,.contents table td{
 	width: 50%;
 }
@@ -340,7 +340,7 @@ dl dt,dl dd{
 	margin: 0 auto;
 	border: 3px solid #cccccc;
 	-webkit-border-radius:10px;
-    -moz-border-radius:10px;
+	-moz-border-radius:10px;
 	border-radius:10px;
 	overflow: hidden;
 }
@@ -356,7 +356,7 @@ dl dt,dl dd{
 }
 
 @media only screen and (min-width: 769px){
-	
+
 	.logo{
 		float:left;
 		padding:10px 0 10px 20px;
@@ -373,7 +373,7 @@ dl dt,dl dd{
 		max-width: 950px;
 		margin: 0 auto;
 	}
-	
+
 	header ul{
 		margin-right: auto;
 		margin-left: auto;
@@ -385,24 +385,24 @@ dl dt,dl dd{
 		width: 25%;
 		border-right: 1px dotted #ff8aac;
 		box-sizing: border-box;
-		border-bottom: none;	
+		border-bottom: none;
 	}
 
 	header ul li:nth-child(odd){
 		width: 25%;
 	}
-		
+
 	header ul li:last-child{
 		border-right: none;
 	}
 
 	header ul li:first-child,header ul li:nth-child(2){
-	border-top: none;
+		border-top: none;
 	}
 
 	.contents{
-	 width: 50%;
-	 float: left;
+		width: 50%;
+		float: left;
 	}
 
 	.news,.about_top{
@@ -410,8 +410,8 @@ dl dt,dl dd{
 	}
 
 	.news .background,.about_top .background{
-	border-top: 1px solid #fed1e4;
-	border-bottom: 1px solid #fed1e4;
+		border-top: 1px solid #fed1e4;
+		border-bottom: 1px solid #fed1e4;
 	}
 
 	.news h2{
@@ -449,7 +449,7 @@ dl dt,dl dd{
 		margin-bottom: 15px;
 		margin-top: 15px;
 	}
-	
+
 	.about_top p{
 		max-width: 455px;
 		float: none;
@@ -460,8 +460,8 @@ dl dt,dl dd{
 	}
 
 	.contents article p{
-	line-height: 2.5;
-	text-align: left;
+		line-height: 2.5;
+		text-align: left;
 	}
 
 	.kuchikomi .contents{
@@ -482,11 +482,11 @@ dl dt,dl dd{
 		float: left;
 		width: 30%;
 	}
-		
+
 	.kuchikomi .contents article .con_right{
 		float: right;
 		width: 70%;
-		text-align: left;	
+		text-align: left;
 	}
 
 	.kuchikomi .contents article .con_right p{
@@ -516,12 +516,12 @@ dl dt,dl dd{
 	}
 
 	body .about_lead{
-		 float: left;
-		 margin-top: 10px;
-		 width: 45%;
-		 max-width: 475px;
+		float: left;
+		margin-top: 10px;
+		width: 45%;
+		max-width: 475px;
 	}
-		 
+
 	body .about_lead_right{
 		width: 45%;
 		max-width: 475px;
@@ -552,7 +552,7 @@ dl dt,dl dd{
 
 	.contact .contents p{
 		clear: both;
-	}file:///C:/Users/EBA/Documents/omowazu-syoukai.com/img/top_view.jpg
+	}
 
 	.news article time{
 		width: 50%;
@@ -562,9 +562,10 @@ dl dt,dl dd{
 }
 */
 
-/* 2017/6/20 更新　*/
+/* 2017/6/20 更新 */
 header{
 	margin:0 auto;
+	position:relative;
 }
 
 header img{
@@ -573,10 +574,10 @@ header img{
 
 header div#header{
 	width:98%;
+	overflow:hidden;
 	position:absolute;
 	top:1%;
 	left:1%;
-	overflow:hidden;
 }
 
 header h1{
@@ -586,12 +587,11 @@ header h1{
 }
 
 header div#header nav{
-	width:29%;
 	float:right;
 }
 
 header div#header nav ul{
-
+	overflow:hidden;
 }
 
 header div#header nav li{
@@ -608,9 +608,9 @@ header div#header nav li a{
 	transition: .3s;
 }
 
-header div#header nav li a::after{
+header div#header nav li a::after {
 	position: absolute;
-	bottom: -4px;
+	bottom: -5px;
 	left: 50%;
 	content: '';
 	width: 0;
@@ -621,7 +621,7 @@ header div#header nav li a::after{
 	transform: translateX(-50%);
 }
 
-header div#header nav li a:hover::after{
+header div#header nav li a:hover::after {
 	width: 100%;
 }
 
