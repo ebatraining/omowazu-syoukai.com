@@ -81,30 +81,6 @@ img{
 	border-top: 1px solid #ffd9e4;
 }
 /*
-header .mv{
-	width: 100%;
-	margin: 0 auto;
-	max-width: 950px;
-}
-
-header .mv img{
-	width: 100%;
-	height: auto;
-	max-width: 950px;
-}
-
-header ul{
-	text-align: center;
-	max-width: 950px;
-	overflow: hidden;
-}
-
-header ul li{
-	width: 50%;
-	float: left;
-	border-bottom: 2px solid #ffd9e4;
-}
-
 .kuchikomi h2{
 	padding-bottom: 15px;
 	margin-bottom: 24px;
@@ -392,12 +368,6 @@ dl dt,dl dd{
 
 @media only screen and (min-width: 769px){
 
-	.logo{
-		float:left;
-		padding:10px 0 10px 20px;
-		width: 13%;
-	}
-
 	.background{
 		/*overflow: hidden;*/
 /*		max-width:none;
@@ -408,32 +378,6 @@ dl dt,dl dd{
 		overflow:hidden;
 		max-width: 950px;
 		margin: 0 auto;
-	}
-
-	header ul{
-		margin-right: auto;
-		margin-left: auto;
-		width:80%;
-		padding-top: 25px;
-	}
-
-	header ul li{
-		width: 25%;
-		border-right: 1px dotted #ff8aac;
-		box-sizing: border-box;
-		border-bottom: none;
-	}
-
-	header ul li:nth-child(odd){
-		width: 25%;
-	}
-
-	header ul li:last-child{
-		border-right: none;
-	}
-
-	header ul li:first-child,header ul li:nth-child(2){
-		border-top: none;
 	}
 
 	.contents{
