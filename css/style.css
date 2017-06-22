@@ -289,7 +289,7 @@ dl dt,dl dd{
 	border: 1px solid #cccccc;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 769px){
 
 /* 2017/6/20~ 更新 */
 header{
@@ -324,7 +324,6 @@ header div#header nav ul{
 
 header div#header nav li{
 	float:left;
-	list-style:none;
 	height:1.5em;
 	padding-left:5%;
 }
@@ -378,19 +377,21 @@ article.news h2{
 article dl{
 	float:right;
 	width:64%;
+	height:12.5vw;
 	font-size:.9em;
 }
 
 article dl dt{
-	color:#333333;
+	color:#dddddd;
+	font-weight:bold;
 	float:left;
 	width:20%;
-	line-height:175%;
+	line-height:120%;
 	margin-right:3%;
 }
 
 article dl dd{
-	line-height:175%;
+	line-height:120%;
 }
 
 article.about_top h2{
@@ -539,30 +540,31 @@ article.about_top p{
 		position:absolute;
 		top:1%;
 		left:1%;
+		overflow:hidden;
 	}
 
 	header h1{
 		width:24%;
-		margin:0 auto;
+		float:left;
 	}
 
 	header div#header nav{
-		
+		float:right;
 	}
 
 	header div#header nav ul{
-		
+
 	}
 
 	header div#header nav li{
-		list-style:none;
 		height:1.5em;
-		padding-left:2%;
+		margin-bottom:.5em;
 	}
 
 	header div#header nav li a{
 		color:#ffffff;
 		text-decoration:none;
+		text-align:right;
 		position: relative;
 		display: inline-block;
 		transition: .3s;
@@ -599,27 +601,35 @@ article.about_top p{
 		font-weight:lighter;
 		font-size:1.2em;
 		border-bottom:3px #20bbd2 solid;
-		line-height:10vw;
-		margin-right:5%;
+		line-height:5vw;
+		margin-bottom:2%;
 	}
 
 	article dl{
-		font-size:.8em;
+		width:90%;
 		overflow:hidden;
+		margin:0 auto;
+		line-height:120%;
 	}
 
 	article dl dt{
+		color:#dddddd;
+		font-weight:bold;
 		width:20%;
-		line-height:175%;
 		float:left;
+		padding:0;
+		margin-right:3%;
 	}
 
 	article dl dd{
-		line-height:175%;
+		padding:0;
 	}
 
 	article p{
 		line-height:100%;
+		width:90%;
+		margin:0 auto;
+		line-height:120%;
 	}
 
 }
