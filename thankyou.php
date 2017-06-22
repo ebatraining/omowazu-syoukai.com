@@ -57,7 +57,7 @@ mb_send_mail($to, $sbj , $msg , $header);
 </div>
 <div class="mv"><img src="img/mv.gif" width="950" height="320" alt=""/></div>
 </header>
-<div class="background mar10"><h2>お問い合わせフォーム</h2></div>
+<div class="background"><h2>お問い合わせフォーム</h2></div>
 
 <div class="contents">
 ありがとうございました。

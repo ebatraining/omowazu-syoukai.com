@@ -39,7 +39,7 @@ $(window).load(function() {
   <header>
         <?php include( $_SERVER['DOCUMENT_ROOT'] . '/global_menu.php'); ?>
   </header>
-  <div class="background mar10">
+  <div class="background">
     <h2>お問い合わせフォーム</h2>
   </div>
   <div class="contents">

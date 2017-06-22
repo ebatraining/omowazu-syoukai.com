@@ -41,7 +41,7 @@ $(window).load(function() {
     <header>
         <?php include( $_SERVER['DOCUMENT_ROOT'] . '/global_menu.php'); ?>
     </header>
-    <div class="background mar10">
+    <div class="background">
         <h2>2016年11月03日まとめ</h2>
     </div>
     <div class="pager">
