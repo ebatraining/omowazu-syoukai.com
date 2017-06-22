@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>思わず紹介.com</title>
 <link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="keywords" content="思わず紹介.com,ホームページ一覧,ホームページ,Webサイト">
 <meta name="description" content="思わず紹介.comでは、様々なホームページを、思わずご紹介させていただいております。ご興味のあるホームページがございましたら、ぜひお気軽に当ページにアクセスしてみてください。">
 <meta name="viewport" content="width=device-width">
@@ -12,7 +12,6 @@
 <link href="favicon.ico" rel="shortcut icon">
 <link href="css/hover-min.css" rel="stylesheet">
 <link href="css/default.css" rel="stylesheet">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <!--全体フェードイン効果-->
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script>
@@ -25,44 +24,33 @@ body {
 	display: none;
 }
 </style>
-<!--
 <script src="js/smart-crossfade.js"></script>
--->
 </head>
 <body>
 	<header>
 		<?php include( $_SERVER['DOCUMENT_ROOT'] . '/global_menu.php'); ?>
-		<img src="./img/top_view.jpg">
-		<div id="header">
-			<h1><img src="./img/logo.png" alt="思わず紹介.comのロゴ"></h1>
-			<nav>
-				<ul>
-					<li><a href=""><i class="fa fa-question-circle-o" aria-hidden="true"></i>このサイトについて</a></li>
-					<li><a href=""><i class="fa fa-window-maximize" aria-hidden="true"></i>様々なサイト</a></li>
-					<li><a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i>お問い合わせ</a></li>
-				</ul>
-			</nav>
-		</div>
 	</header>
 	<article class="news">
 		<h2>新着情報</h2>
 		<dl>
-			<dt>2016/08/23</dt>
+			<dt>2016/12/01</dt>
 			<dd>新規口コミ投稿</dd>
-			<dt>2016/08/10</dt>
+			<dt>2016/11/25</dt>
 			<dd>新規口コミ投稿</dd>
-			<dt>2016/07/25</dt>
+			<dt>2016/11/14</dt>
 			<dd>新規口コミ投稿</dd>
-			<dt>2016/07/13</dt>
+			<dt>2016/11/02</dt>
 			<dd>新規口コミ投稿</dd>
-			<dt>2016/06/27</dt>
-			<dd>新規口コミ投稿</dd>
+			<dt>2016/10/19</dt>
+			<dd>ホームページをリニューアルしました</dd>
 		</dl>
 	</article>
 	<article class="about_top">
 		<h2>思わず紹介.comとは？</h2>
-		<p>思わず紹介.comとは、全世界に存在するWebサイトの中から、思わず紹介したくなる情報をまとめたサイトです！
-		気になる記事がありましたら、ぜひクリックしてみてください。</p>
+		<p>思わず紹介.comとは、全世界に億単位で存在するWebサイトの中から、思わず紹介したくなる様々なホームページやサイトをご紹介させていただきます！<br>
+		皆様がお気に召すサイトなどがありましたら、ぜひクリックしてみてください。<br>
+		今後とも、思わず紹介.comをよろしくお願い致します。<br>
+		何かご不明点やご要望等がありましたら、お気軽にお問合せくださいませ。</p>
 	</article>
 	<div id="site">
 		<p>現在紹介中のサイト</p>
