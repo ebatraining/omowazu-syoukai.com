@@ -1,20 +1,12 @@
 @charset "utf-8";
 
-body{
-	width: 100%;
-	background-color: #fff;
-	color: #6d6d6d;
-	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-	margin: 0 auto;
-}
-
 @media screen and (max-width:767px){ 
 
-html{ 
-font-size:2vw; 
-} 
+html{
+font-size:2vw;
+}
 
-} 
+}
 
 @media screen and (min-width:768px) and (max-width:1100px){ 
 
@@ -48,6 +40,14 @@ font-size:1vw;
 
 } 
 
+body{
+	width: 100%;
+	background-color: #fff;
+	color: #6d6d6d;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	margin: 0 auto;
+}
+
 a{
 	color: #333;
 	text-decoration: none;
@@ -80,7 +80,7 @@ img{
 	border-bottom: 1px solid #ffd9e4;
 	border-top: 1px solid #ffd9e4;
 }
-/*
+
 .kuchikomi h2{
 	padding-bottom: 15px;
 	margin-bottom: 24px;
@@ -88,27 +88,8 @@ img{
 	padding-top: 15px;
 }
 
-.kuchikomi .contents{margin-top: 10px;
-}
-
-header ul li:first-child,header ul li:nth-child(2){
-	border-top: 2px solid #ffd9e4;
-}
-
-header ul li a{
-	width: 100%;
-	display: block;
-	transition: all .4s ease 0s;
-}
-
-header ul li a:hover{
-	background-color:#FFC5EC;
-}
-
-header ul li:nth-child(odd){
-	border-right: 1px dotted #ff8aac;
-	height: 60%;
-	width: 49%;
+.kuchikomi .contents{
+	margin-top: 10px;
 }
 
 .kuchikomi h2{
@@ -118,8 +99,6 @@ header ul li:nth-child(odd){
 	text-align: center;
 	/*margin-top: 10px;*/
 }
-
-/*
 
 .pager{
 	max-width:950px;
@@ -146,10 +125,6 @@ header ul li:nth-child(odd){
 .pager .kuchi_on{
 	background-color: #333;
 	color: #fff;
-}
-
-.contents{
-
 }
 
 .contents article{
@@ -189,56 +164,7 @@ footer{
 	overflow: hidden;
 	clear:both;
 	line-height: 1.5;
-	font-size: 1.2em;
-}
-
-.news{width: 100%;
-	text-align: center;
-	margin-top: 10px;
-	overflow: hidden;
-}
-
-.news h2{
-	padding-bottom: 15px;
-	border-bottom: 1px solid #ffd9e4;
-	font-size: 1.4em;
-	border-top: 1px solid #ffd9e4;
-	padding-top: 15px;
-}
-
-.news article{
-	width: 100%;
-	font-size: 1.2em;
-}
-
-.news article time{
-	display:block;
-	width: 100%;
-	margin-bottom: 15px;
-}
-
-.news artcicle p{
-	width: 100%;
-	padding: 0 10px;
-}
-
-.about_top{
-	width: 100%;
-	text-align: center;
-	clear: both;
-}
-
-.about_top h2{
-	padding-bottom: 15px;
-	border-bottom: 1px solid #ffd9e4;
-	font-size: 1.4em;
-	padding-top:15px;
-	border-top: 1px solid #ffd9e4;
-}
-
-.about_top p{
-	font-size: 1.2em;
-	text-align: left;
+	font-size: .9em;
 }
 
 body .about_lead{
@@ -274,7 +200,7 @@ body .about_lead{
 
 #about .contents{
 	width: 50%;
-float: left;
+	float: left;
 }
 
 html{
@@ -363,14 +289,139 @@ dl dt,dl dd{
 	border: 1px solid #cccccc;
 }
 
-@media only screen and (min-width: 769px){
+@media screen and (min-width: 768px){
 
+/* 2017/6/20~ 更新 */
+header{
+	margin:0 auto;
+	position:relative;
+}
+
+header img{
+	width:100%;
+}
+
+header div#header{
+	width:98%;
+	overflow:hidden;
+	position:absolute;
+	top:1%;
+	left:1%;
+}
+
+header h1{
+	width:24%;
+	float:left;
+}
+
+header div#header nav{
+	float:right;
+}
+
+header div#header nav ul{
+	overflow:hidden;
+}
+
+header div#header nav li{
+	float:left;
+	list-style:none;
+	height:1.5em;
+	padding-left:5%;
+}
+
+header div#header nav li a{
+	color:#ffffff;
+	text-decoration:none;
+	position: relative;
+	display: inline-block;
+	transition: .3s;
+}
+
+header div#header nav li a::after {
+	position: absolute;
+	bottom: -4px;
+	left: 50%;
+	content: '';
+	width: 0;
+	height: .2em;
+	background-color: #20bbd2;
+	transition: .3s;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+header div#header nav li a:hover::after {
+	width: 100%;
+}
+
+i{
+	padding-right:2%;
+}
+
+article{
+	margin:20px auto;
+	width:70%;
+	overflow:hidden;
+}
+
+article.news h2{
+	font-weight:lighter;
+	font-size:1.1em;
+	width:25%;
+	text-align:right;
+	float:left;
+	border-right:3px #20bbd2 solid;
+	padding:8% 5% 8% 0;
+	margin-right:5%;
+}
+
+article dl{
+	float:right;
+	width:64%;
+	font-size:.9em;
+}
+
+article dl dt{
+	color:#333333;
+	float:left;
+	width:20%;
+	line-height:175%;
+	margin-right:3%;
+}
+
+article dl dd{
+	line-height:175%;
+}
+
+article.about_top h2{
+	font-weight:lighter;
+	font-size:1.1em;
+	width:25%;
+	text-align:right;
+	float:left;
+	border-right:3px #20bbd2 solid;
+	padding:10% 5% 10% 0;
+	margin-right:1%;
+}
+
+article.about_top p{
+	float:right;
+	width:64%;
+	font-size:.9em;
+	line-height:160%;
+	padding:1% 0;
+}
+
+}
+
+
+@media screen and (max-width: 769px){
+	
 	.background{
 		/*overflow: hidden;*/
-/*		max-width:none;
+		max-width:none;
 	}
-*/
-/*
+
 	.max{
 		overflow:hidden;
 		max-width: 950px;
@@ -380,65 +431,6 @@ dl dt,dl dd{
 	.contents{
 		width: 50%;
 		float: left;
-	}
-
-	.news,.about_top{
-		margin-top: 10px;
-	}
-
-	.news .background,.about_top .background{
-		border-top: 1px solid #fed1e4;
-		border-bottom: 1px solid #fed1e4;
-	}
-
-	.news h2{
-		padding: 0;
-		margin: 0;
-		border: none;
-		border-right: 1px dotted #ff8aac;
-		margin-left: auto;
-		max-width:475px;
-		border-bottom: none;
-		margin-bottom: 15px;
-		margin-top: 15px;
-	}
-
-	.news article{
-		max-width: 475px;
-		float: none;
-		margin-left: auto;
-	}
-
-	.about_top{
-		width: 50%;
-		float: right;
-		clear: none;
-	}
-
-	.about_top h2{
-		padding: 0;
-		margin: 0;
-		border: none;
-		max-width: 455px;
-		float: none;
-		margin-right: auto;
-		border-bottom: none;
-		margin-bottom: 15px;
-		margin-top: 15px;
-	}
-
-	.about_top p{
-		max-width: 455px;
-		float: none;
-		margin-right: auto;
-		text-align: left;
-		line-height: 2.5;
-		letter-spacing:-2px;
-	}
-
-	.contents article p{
-		line-height: 2.5;
-		text-align: left;
 	}
 
 	.kuchikomi .contents{
@@ -531,118 +523,104 @@ dl dt,dl dd{
 		clear: both;
 	}
 
-	.news article time{
-		width: 50%;
-		float:left;
-		line-height: 2.5;
+/* 2017/6/20~更新 */
+
+	header{
+		margin:0 auto;
+		position:relative;
 	}
-}
-*/
 
-/* 2017/6/20~ 更新 */
-header{
-	margin:0 auto;
-	position:relative;
-}
+	header img{
+		width:100%;
+	}
 
-header img{
-	width:100%;
-}
+	header div#header{
+		width:98%;
+		position:absolute;
+		top:1%;
+		left:1%;
+	}
 
-header div#header{
-	width:98%;
-	overflow:hidden;
-	position:absolute;
-	top:1%;
-	left:1%;
-}
+	header h1{
+		width:24%;
+		margin:0 auto;
+	}
 
-header h1{
-	width:24%;
-	float:left;
-}
+	header div#header nav{
+		
+	}
 
-header div#header nav{
-	float:right;
-}
+	header div#header nav ul{
+		
+	}
 
-header div#header nav ul{
-	overflow:hidden;
-}
+	header div#header nav li{
+		list-style:none;
+		height:1.5em;
+		padding-left:2%;
+	}
 
-header div#header nav li{
-	float:left;
-	list-style:none;
-	height:1.5em;
-	padding-left:2%;
-}
+	header div#header nav li a{
+		color:#ffffff;
+		text-decoration:none;
+		position: relative;
+		display: inline-block;
+		transition: .3s;
+	}
 
-header div#header nav li a{
-	color:#ffffff;
-	text-decoration:none;
-	position: relative;
-	display: inline-block;
-	transition: .3s;
-}
+	header div#header nav li a::after {
+		position: absolute;
+		bottom: -4px;
+		left: 50%;
+		content: '';
+		width: 0;
+		height: .2em;
+		background-color: #20bbd2;
+		transition: .3s;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
 
-header div#header nav li a::after {
-	position: absolute;
-	bottom: -4px;
-	left: 50%;
-	content: '';
-	width: 0;
-	height: .2em;
-	background-color: #20bbd2;
-	transition: .3s;
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
-}
+	header div#header nav li a:hover::after{
+		width: 100%;
+	}
 
-header div#header nav li a:hover::after {
-	width: 100%;
-}
+	i{
+		padding-right:2%;
+	}
 
-i{
-	padding-right:2%;
-}
+	article{
+		margin:20px auto;
+		width:80%;
+		height:30%;
+	}
 
-article{
-	margin:20px auto;
-	width:70%;
-	height:8%;
-	overflow:hidden;
-}
+	article h2{
+		font-weight:lighter;
+		font-size:1.2em;
+		border-bottom:3px #20bbd2 solid;
+		line-height:10vw;
+		margin-right:5%;
+	}
 
-article h2{
-	font-weight:lighter;
-	font-size:1.2em;
-	width:25%;
-	text-align:right;
-	float:left;
-	border-right:3px #20bbd2 solid;
-	line-height:10vw;
-	padding-right:5%;
-	margin-right:5%;
-}
+	article dl{
+		font-size:.8em;
+		overflow:hidden;
+	}
 
-article dl{
-	float:right;
-	width:64%;
-	font-size:.8em;
-}
+	article dl dt{
+		width:20%;
+		line-height:175%;
+		float:left;
+	}
 
-article dl dt{
-	float:left;
-	width:20%;
-	line-height:175%;
+	article dl dd{
+		line-height:175%;
+	}
+
+	article p{
+		line-height:100%;
+	}
+
 }
 
-article dl dd{
-	line-height:175%;
-}
-
-article p{
-	float:right;
-	width:64%;
-	line-height:100%;
-}
