@@ -47,10 +47,10 @@ $(window).load(function() {
     <div class="pager">
         <i class="fa fa-angle-double-left opa0"></i>
         <span class="kuchi_on">1</span>
-        <span><a href="kuchikomi02.html">2</a></span>
-        <span><a href="kuchikomi03.html">3</a></span>
-        <span><a href="kuchikomi04.html">4</a></span>
-        <a href="kuchikomi02.html"><i class="fa fa-angle-double-right"></i></a>
+        <span><a href="kuchikomi02.php">2</a></span>
+        <span><a href="kuchikomi03.php">3</a></span>
+        <span><a href="kuchikomi04.php">4</a></span>
+        <a href="kuchikomi02.php"><i class="fa fa-angle-double-right"></i></a>
     </div>
     <div class="contents">
         <article>
@@ -157,10 +157,10 @@ $(window).load(function() {
     <div class="pager">
         <i class="fa fa-angle-double-left opa0"></i>
         <span class="kuchi_on">1</span>
-        <span><a href="kuchikomi02.html">2</a></span>
-        <span><a href="kuchikomi03.html">3</a></span>
-        <span><a href="kuchikomi04.html">4</a></span>
-        <a href="kuchikomi02.html"><i class="fa fa-angle-double-right"></i></a>
+        <span><a href="kuchikomi02.php">2</a></span>
+        <span><a href="kuchikomi03.php">3</a></span>
+        <span><a href="kuchikomi04.php">4</a></span>
+        <a href="kuchikomi02.php"><i class="fa fa-angle-double-right"></i></a>
     </div>
     <footer>
         <small>Copyrights(C)2015 思わず紹介.com,Inc.<br>All Rights Reserved.</small>

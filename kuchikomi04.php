@@ -45,10 +45,10 @@ $(window).load(function() {
         <h2>2016年11月03日まとめ</h2>
     </div>
     <div class="pager">
-        <a href="kuchikomi03.html"><i class="fa fa-angle-double-left"></i></a>
-        <span><a href="kuchikomi01.html">1</a></span>
-        <span><a href="kuchikomi02.html">2</a></span>
-        <span><a href="kuchikomi03.html">3</a></span>
+        <a href="kuchikomi03.php"><i class="fa fa-angle-double-left"></i></a>
+        <span><a href="kuchikomi01.php">1</a></span>
+        <span><a href="kuchikomi02.php">2</a></span>
+        <span><a href="kuchikomi03.php">3</a></span>
         <span class="kuchi_on">4</span>
         <i class="fa fa-angle-double-right opa0"></i>
     </div>
@@ -115,10 +115,10 @@ $(window).load(function() {
         </article>
     </div>
     <div class="pager">
-        <a href="kuchikomi03.html"><i class="fa fa-angle-double-left"></i></a>
-        <span><a href="kuchikomi01.html">1</a></span>
-        <span><a href="kuchikomi02.html">2</a></span>
-        <span><a href="kuchikomi03.html">3</a></span>
+        <a href="kuchikomi03.php"><i class="fa fa-angle-double-left"></i></a>
+        <span><a href="kuchikomi01.php">1</a></span>
+        <span><a href="kuchikomi02.php">2</a></span>
+        <span><a href="kuchikomi03.php">3</a></span>
         <span class="kuchi_on">4</span>
         <i class="fa fa-angle-double-right opa0"></i>
     </div>

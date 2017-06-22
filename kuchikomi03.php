@@ -45,12 +45,12 @@ $(window).load(function() {
         <h2>2016年07月25日まとめ</h2>
     </div>
     <div class="pager">
-        <a href="kuchikomi02.html"><i class="fa fa-angle-double-left"></i></a>
-        <span><a href="kuchikomi01.html">1</a></span>
-        <span><a href="kuchikomi02.html">2</a></span>
+        <a href="kuchikomi02.php"><i class="fa fa-angle-double-left"></i></a>
+        <span><a href="kuchikomi01.php">1</a></span>
+        <span><a href="kuchikomi02.php">2</a></span>
         <span class="kuchi_on">3</span>
-        <span><a href="kuchikomi04.html">4</a></span>
-        <a href="kuchikomi04.html"><i class="fa fa-angle-double-right"></i></a>
+        <span><a href="kuchikomi04.php">4</a></span>
+        <a href="kuchikomi04.php"><i class="fa fa-angle-double-right"></i></a>
     </div>
     <div class="contents">
         <article>
@@ -155,12 +155,12 @@ $(window).load(function() {
         </article>
     </div>
     <div class="pager">
-        <a href="kuchikomi02.html"><i class="fa fa-angle-double-left"></i></a>
-        <span><a href="kuchikomi01.html">1</a></span>
-        <span><a href="kuchikomi02.html">2</a></span>
+        <a href="kuchikomi02.php"><i class="fa fa-angle-double-left"></i></a>
+        <span><a href="kuchikomi01.php">1</a></span>
+        <span><a href="kuchikomi02.php">2</a></span>
         <span class="kuchi_on">3</span>
-        <span><a href="kuchikomi04.html">4</a></span>
-        <a href="kuchikomi04.html"><i class="fa fa-angle-double-right"></i></a>
+        <span><a href="kuchikomi04.php">4</a></span>
+        <a href="kuchikomi04.php"><i class="fa fa-angle-double-right"></i></a>
     </div>
     <footer>
         <small>Copyrights(C)2015 思わず紹介.com,Inc.<br>All Rights Reserved.</small>
