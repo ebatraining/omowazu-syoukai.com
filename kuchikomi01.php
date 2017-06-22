@@ -3,13 +3,14 @@
 <head>
 <meta charset="utf-8">
 <title>思わず紹介.com | まとめ1</title>
-<meta name="keywords" content="思わず紹介.com,ホームページまとめ,ホームページ">
-<meta name="description" content="思わず紹介.comのホームページまとめページです。掲載日ごとにご紹介しているホームページが異なりますので、いずれの日付にもアップしている">
+<meta name="keywords" content="思わず紹介.com,ホームページ一覧,ホームページ">
+<meta name="description" content="思わず紹介.comでは、様々なホームページを、思わずご紹介させていただいております。ご興味のあるホームページがございましたら、ぜひお気軽に当ページにアクセスしてみてください。">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="css/reset.css">
-<link href="css/nivo-slider.css" rel="stylesheet">
-<link href="css/default.css" rel="stylesheet">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/style.css">
+<link href="css/nivo-slider.css" rel="stylesheet">
+<link href="css/default.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width">
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <!--スライドショー-->
@@ -42,15 +43,15 @@ $(window).load(function() {
         <?php include( $_SERVER['DOCUMENT_ROOT'] . '/global_menu.php'); ?>
     </header>
     <div class="background">
-        <h2>2016年8月23日まとめ</h2>
+        <h2>2016年11月03日まとめ</h2>
     </div>
     <div class="pager">
-        <i class="fa fa-angle-double-left opa0"></i>
+        <i class="fa fa-angle-double-right opa0"></i>
         <span class="kuchi_on">1</span>
-        <span><a href="kuchikomi02.php">2</a></span>
-        <span><a href="kuchikomi03.php">3</a></span>
-        <span><a href="kuchikomi04.php">4</a></span>
-        <a href="kuchikomi02.php"><i class="fa fa-angle-double-right"></i></a>
+        <span><a href="kuchikomi02.php">1</a></span>
+        <span><a href="kuchikomi03.php">2</a></span>
+        <span><a href="kuchikomi04.php">3</a></span>
+        <a href="kuchikomi03.php"><i class="fa fa-angle-double-left"></i></a>
     </div>
     <div class="contents">
         <article>
@@ -69,7 +70,7 @@ $(window).load(function() {
             </div>
             <div class="con_right">
                 <h3><a href="http://casamingo.gift/" target="_blank">バースデーケーキ | 誕生日ケーキ</a></h3>
-                <h4><a href="http://casamingo.gift/" target="_blank">http://www.creed-greenrental.com/</a></h4>
+                <h4><a href="http://casamingo.gift/" target="_blank">http://casamingo.gift/</a></h4>
                 <p>ヨーロッパで修行を繰り返したパティシエの本場の味が楽しめます。年間７０００台以上の全国発送実績があって、洋菓子の通販が初めての方でも安心して注文できますね！サイトには美味しそうなケーキの写真がいっぱいで、眺めているだけでも楽しい！</p>
             </div>
         </article>
@@ -155,15 +156,15 @@ $(window).load(function() {
         </article>
     </div>
     <div class="pager">
-        <i class="fa fa-angle-double-left opa0"></i>
+        <i class="fa fa-angle-double-right opa0"></i>
         <span class="kuchi_on">1</span>
-        <span><a href="kuchikomi02.php">2</a></span>
-        <span><a href="kuchikomi03.php">3</a></span>
-        <span><a href="kuchikomi04.php">4</a></span>
-        <a href="kuchikomi02.php"><i class="fa fa-angle-double-right"></i></a>
+        <span><a href="kuchikomi02.php">1</a></span>
+        <span><a href="kuchikomi03.php">2</a></span>
+        <span><a href="kuchikomi04.php">3</a></span>
+        <a href="kuchikomi03.php"><i class="fa fa-angle-double-left"></i></a>
     </div>
     <footer>
-        <small>Copyrights(C)2015 思わず紹介.com,Inc.<br>All Rights Reserved.</small>
+        <small>Copyrights&copy;2015-2016 思わず紹介.com,Inc.<br>All Rights Reserved.</small>
     </footer>
 </body>
 </html>

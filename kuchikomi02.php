@@ -5,6 +5,7 @@
 <title>思わず紹介.com | まとめ2</title>
 <meta name="keywords" content="思わず紹介.com,ホームページ一覧,ホームページ">
 <meta name="description" content="思わず紹介.comでは、様々なホームページを、思わず皆様にご紹介したくなるようなページをご紹介させていただいております。ご興味のあるホームページがございましたら、ぜひお気軽に当ページにアクセスしてみてください。">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="css/reset.css">
 <link href="css/nivo-slider.css" rel="stylesheet">
 <link href="css/default.css" rel="stylesheet">
@@ -65,10 +66,10 @@ $(window).load(function() {
         </article>
         <article>
             <div class="con_left">
-                <img src="img/12.jpg" width="140px" height="140px" alt="肩こり 解消 グッズ">
+                <img src="img/12.jpg" width="140px" height="140px" alt="肩こり解消グッズ">
             </div>
             <div class="con_right">
-                <h3><a href="http://www.kirakuza.jp/" target="_blank">肩こり 解消 グッズ</a></h3>
+                <h3><a href="http://www.kirakuza.jp/" target="_blank">肩こり解消グッズ</a></h3>
                 <h4><a href="http://www.kirakuza.jp/" target="_blank">http://www.kirakuza.jp/</a></h4>
                 <p>最近肩こりが酷い…そんなアナタにマイナスイオンの発生量が他の鉱物より圧倒的に多いこの石をどうぞ。ブレスレットやネックレスだけじゃなくケアクリームも取り揃えています！<br><br><br></p>
             </div>
@@ -105,50 +106,50 @@ $(window).load(function() {
         </article>
         <article>
             <div class="con_left">
-                <img src="img/16.jpg" width="140px" height="140px" alt="まとめオール | まとめサイト">
+                <img src="img/16.jpg" width="140px" height="140px" alt="まとめオールまとめサイト">
             </div>
             <div class="con_right">
-                <h3><a href="http://matome-all.net/" target="_blank">まとめオール | まとめサイト</a></h3>
+                <h3><a href="http://matome-all.net/" target="_blank">まとめオールまとめサイト</a></h3>
                 <h4><a href="http://matome-all.net/" target="_blank">http://matome-all.net/</a></h4>
                 <p>軍の指導者であれ、政治家であれ、昔から情報を制する者は皆の一歩先を進んでいました。あらゆる情報が氾濫するこの時代、一つに見やすくまとめられた情報サイトを利用しないなんてもったいない！<br><br></p>
             </div>
         </article>
         <article>
             <div class="con_left">
-                <img src="img/17.jpg" width="140px" height="140px" alt="総合ランキングサイト | ランキングサイト">
+                <img src="img/17.jpg" width="140px" height="140px" alt="総合ランキングサイトランキングサイト">
             </div>
             <div class="con_right">
-                <h3><a href="http://sougou-ranking.com/" target="_blank">総合ランキングサイト | ランキングサイト</</a></h3>
+                <h3><a href="http://sougou-ranking.com/" target="_blank">総合ランキングサイトランキングサイト</</a></h3>
                 <h4><a href="http://sougou-ranking.com/" target="_blank">http://manten100.com/</a></h4>
                 <p>みんな大好きランキング！あらゆるジャンルを網羅したこのサイトがおススメ♪レンタルや企業、さらにはボランティア関連なんて他では見かけないような珍しいランキングもありますよ！</p>
             </div>
         </article>
         <article>
             <div class="con_left">
-                <img src="img/18.jpg" width="140px" height="140px" alt="会社紹介 | 企業紹介">
+                <img src="img/18.jpg" width="140px" height="140px" alt="会社紹介企業紹介">
             </div>
             <div class="con_right">
-                <h3><a href="http://kaisya-syoukai.com/" target="_blank">会社紹介 | 企業紹介</a></h3>
+                <h3><a href="http://kaisya-syoukai.com/" target="_blank">会社紹介企業紹介</a></h3>
                 <h4><a href="http://kaisya-syoukai.com/" target="_blank">http://kaisya-syoukai.com/</a></h4>
                 <p>仕事をお願いするにしてもできれば良い会社に頼みたいですよね。でも広大なネットの海を渡り歩いて優良企業を探すのは、砂漠に落ちたコンタクトレンズを見つけるようなモノ。ココは素直にまとめられているサイトを頼って楽しちゃいましょうよ！</p>
             </div>
         </article>
         <article>
             <div class="con_left">
-                <img src="img/19.jpg" width="140px" height="140px" alt="建設業許可 | 建設業許可代行">
+                <img src="img/19.jpg" width="140px" height="140px" alt="建設業許可建設業許可代行">
             </div>
             <div class="con_right">
-                <h3><a href="http://kensetsu.kyokadaikou.com/" target="_blank">建設業許可 | 建設業許可代行</a></h3>
+                <h3><a href="http://kensetsu.kyokadaikou.com/" target="_blank">建設業許可建設業許可代行</a></h3>
                 <h4><a href="http://kensetsu.kyokadaikou.com/" target="_blank">http://kensetsu.kyokadaikou.com/</a></h4>
                 <p>東京オリンピック、楽しみですよね！連日のニュースで伝えられている通り、どんどん新しい建物が立って町も賑わい、景気も盛り上がってきてます。波に乗り遅れたくない！でも今から建設の許可を取るとなると大変！でも安心、便利な代行サービスがあるんです。</p>
             </div>
         </article>
         <article>
             <div class="con_left">
-                <img src="img/20.jpg" width="140px" height="140px" alt="ソーシャルゲーム ランキング | スマホゲーム ランキング">
+                <img src="img/20.jpg" width="140px" height="140px" alt="ソーシャルゲームランキング・スマホゲームランキング">
             </div>
             <div class="con_right">
-                <h3><a href="http://www.bestgame.jp/" target="_blank">ソーシャルゲーム ランキング | スマホゲーム ランキング</a></h3>
+                <h3><a href="http://www.bestgame.jp/" target="_blank">ソーシャルゲームランキングスマホゲームランキング</a></h3>
                 <h4><a href="http://www.bestgame.jp/" target="_blank">http://www.bestgame.jp/</a></h4>
                 <p>パズドラ？黒猫？キャスクラ？社内の若い人たちから聞こえる不思議な略語たち。なんだか流行ってるらしい…わかんないままだととっても悔しい！このサイトでちゃんとランキング形式で詳しく解説してくれますよ！</p>
             </div>
@@ -163,7 +164,7 @@ $(window).load(function() {
         <a href="kuchikomi03.php"><i class="fa fa-angle-double-right"></i></a>
     </div>
     <footer>
-        <small>Copyrights(C)2015 思わず紹介.com,Inc.<br>All Rights Reserved.</small>
+        <small>Copyrights&copy;2015-2016 思わず紹介.com,Inc.<br>All Rights Reserved.</small>
     </footer>
 </body>
 </html>
