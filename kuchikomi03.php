@@ -6,36 +6,11 @@
 <meta name="keywords" content="思わず紹介.com,ホームページ一覧,ホームページ">
 <meta name="description" content="思わず紹介.comでは、様々なホームページを、思わずご紹介させていただいております。ご興味のあるホームページがございましたら、ぜひお気軽に当ページにアクセスしてみてください。">
 <link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/style.css">
-<link href="css/nivo-slider.css" rel="stylesheet">
 <link href="css/default.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width">
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-<!--スライドショー-->
-<script src="./js/jquery.nivo.slider.pack.js"></script>
-<script type="text/javascript">
-$(window).load(function() {
-    $('#slider').nivoSlider({
-        effect:'random',
-        slices:5,
-        animSpeed:100, //画像が切り替わるスピード
-        pauseTime:5000, //画像が切り替わるまでの時間
-        startSlide:0, //最初に表示する画像
-        directionNav:true, //矢印を表示する
-        directionNavHide:true, //マウスを乗せたときに矢印を表示
-        controlNav:true, //1,2,3...
-        controlNavThumbsSearch: '.jpg',
-        controlNavThumbsReplace: '_thumb.jpg',
-        keyboardNav:true, //Use left & right arrows
-        pauseOnHover:true, //オンマウスで画像が止まる
-        manualAdvance:false, //Force manual transitions
-        beforeChange: function(){},
-        afterChange: function(){},
-        slideshowEnd: function(){}
-    });
-});
-</script>
 </head>
 <body class="kuchikomi">
     <header>
