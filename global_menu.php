@@ -1,6 +1,6 @@
 		<img src="./img/top_view.jpg">
 		<div id="header">
-			<h1><img src="./img/logo.png" alt="思わず紹介.comのロゴ"></h1>
+			<h1><a href="index.php"><img src="./img/logo.png" alt="思わず紹介.comのロゴ"></a></h1>
 			<nav>
 				<ul>
 					<li><a href="about.php"><i class="fa fa-question-circle-o" aria-hidden="true"></i>サイトについて</a></li>
