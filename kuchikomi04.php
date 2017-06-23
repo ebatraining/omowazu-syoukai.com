@@ -5,7 +5,6 @@
 <title>思わず紹介.com | まとめ4</title>
 <meta name="keywords" content="思わず紹介.com,ホームページ一覧,ホームページ">
 <meta name="description" content="思わず紹介.comでは、様々なホームページを、思わずご紹介させていただいております。ご興味のあるホームページがございましたら、ぜひお気軽に当ページにアクセスしてみてください。">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/style.css">

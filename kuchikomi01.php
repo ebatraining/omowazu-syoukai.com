@@ -1,11 +1,10 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>思わず紹介.com | まとめ1</title>
 <meta name="keywords" content="思わず紹介.com,ホームページ一覧,ホームページ">
 <meta name="description" content="思わず紹介.comでは、様々なホームページを、思わずご紹介させていただいております。ご興味のあるホームページがございましたら、ぜひお気軽に当ページにアクセスしてみてください。">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/style.css">
@@ -46,13 +45,13 @@ $(window).load(function() {
         <h2>2016年11月03日まとめ</h2>
     </div>
     <div class="pager">
-        <i class="fa fa-angle-double-right opa0"></i>
-        <span class="kuchi_on">1</span>
-        <span><a href="kuchikomi02.php">1</a></span>
-        <span><a href="kuchikomi03.php">2</a></span>
-        <span><a href="kuchikomi04.php">3</a></span>
-        <a href="kuchikomi03.php"><i class="fa fa-angle-double-left"></i></a>
-    </div>
+		<i class="fa fa-angle-double-left opa0"></i>
+		<span class="kuchi_on">1</span>
+		<span><a href="kuchikomi02.php">2</a></span>
+		<span><a href="kuchikomi03.php">3</a></span>
+		<span><a href="kuchikomi04.php">4</a></span>
+		<a href="kuchikomi02.php"><i class="fa fa-angle-double-right"></i></a>
+	</div>
     <div class="contents">
         <article>
             <div class="con_left">
@@ -156,13 +155,13 @@ $(window).load(function() {
         </article>
     </div>
     <div class="pager">
-        <i class="fa fa-angle-double-right opa0"></i>
-        <span class="kuchi_on">1</span>
-        <span><a href="kuchikomi02.php">1</a></span>
-        <span><a href="kuchikomi03.php">2</a></span>
-        <span><a href="kuchikomi04.php">3</a></span>
-        <a href="kuchikomi03.php"><i class="fa fa-angle-double-left"></i></a>
-    </div>
+		<i class="fa fa-angle-double-left opa0"></i>
+		<span class="kuchi_on">1</span>
+		<span><a href="kuchikomi02.php">2</a></span>
+		<span><a href="kuchikomi03.php">3</a></span>
+		<span><a href="kuchikomi04.php">4</a></span>
+		<a href="kuchikomi02.php"><i class="fa fa-angle-double-right"></i></a>
+	</div>
     <footer>
         <small>Copyrights&copy;2015-2016 思わず紹介.com,Inc.<br>All Rights Reserved.</small>
     </footer>
