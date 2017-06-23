@@ -250,6 +250,12 @@ dl dt,dl dd{
 	border: 1px solid #cccccc;
 }
 
+header img{
+	width:100%;
+}
+
+
+
 @media screen and (min-width: 769px){
 
 /* 2017/6/20~ 更新 */
@@ -288,7 +294,7 @@ header div#header nav li{
 	float:left;
 	height:1.5em;
 	width: 30%;
-    text-align: right;
+	text-align: right;
 }
 
 header div#header nav li a{
@@ -592,7 +598,7 @@ article.about_top p{
 
 }
 
-@media screen and (max-width:767px){ 
+@media screen and (max-width:767px){
 
 html{
 font-size:2vw;
@@ -600,11 +606,11 @@ font-size:2vw;
 
 }
 
-@media screen and (min-width:768px) and (max-width:1100px){ 
+@media screen and (min-width:768px) and (max-width:1100px){
 
-html{ 
-font-size:1.5vw; 
-} 
+html{
+font-size:1.5vw;
+}
 
 article dl{
 	padding:1% 0;
@@ -625,13 +631,13 @@ article.about_top p{
 }
 
 
-} 
+}
 
-@media screen and (min-width:1101px) and (max-width:1300px){ 
+@media screen and (min-width:1101px) and (max-width:1300px){
 
-html{ 
-font-size:1.4vw; 
-} 
+html{
+font-size:1.4vw;
+}
 
 article dl{
 	padding:1% 0;
@@ -651,13 +657,13 @@ article.about_top p{
 	padding:1% 0;
 }
 
-} 
+}
 
-@media screen and (min-width:1301px){ 
+@media screen and (min-width:1301px){
 
-html{ 
-font-size:1.2vw; 
-} 
+html{
+font-size:1.2vw;
+}
 
 article dl{
 	padding:5px 0;
@@ -677,4 +683,4 @@ article.about_top p{
 	padding:1% 0;
 }
 
-} 
+}
