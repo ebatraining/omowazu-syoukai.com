@@ -67,7 +67,7 @@ img{
 .kuchikomi h2{
 	width: 100%;
 	margin: 0 auto;
-	max-width: 950px;
+	/*max-width: 950px;*/
 	text-align: center;
 	/*margin-top: 10px;*/
 }
